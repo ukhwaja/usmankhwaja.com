@@ -1,0 +1,21 @@
+{{ if gt .Paginator.TotalPages 1 }}
+<div class="flex justify-between w-100 pv4">
+    <div class="w-33">
+    {{ if .Paginator.HasPrev }}
+    <a class="no-underline link color-inherit" title="Previous Page" href="{{ .Paginator.Prev.URL }}">
+        &larr; Newer
+    </a>
+    {{ end }}
+    </div>
+    <div class="f6 w-33 tc gray">
+    Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}
+    </div>
+    <div class="w-33 tr">
+    {{ if .Paginator.HasNext }}
+    <a class="no-underline link color-inherit" title="Next Page" href="{{ .Paginator.Next.URL }}">
+        Older &rarr;
+    </a>
+    {{ end }}
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/numbfall
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://usmankhwaja.com
+  * I am numbfall (https://keybase.io/numbfall) on keybase.
+  * I have a public key with fingerprint D831 A990 D892 AAC7 9E9E  7B15 1353 5AE4 4AEF 8634
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01010eca98aa3fac846d34c753b38650d321cedcd7d9df704d599e26077097bfab2e0a",
+      "fingerprint": "d831a990d892aac79e9e7b1513535ae44aef8634",
+      "host": "keybase.io",
+      "key_id": "13535ae44aef8634",
+      "kid": "01010eca98aa3fac846d34c753b38650d321cedcd7d9df704d599e26077097bfab2e0a",
+      "uid": "0f2e96d31d6f2a2594b9f600bc9dc819",
+      "username": "numbfall"
+    },
+    "service": {
+      "hostname": "usmankhwaja.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1542335460,
+  "expire_in": 157680000,
+  "prev": "c460e93b606540b5c3d9cdaaa6b89cea0baaec76e9d95e9a2c01b4b40abb7a1c",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.80
+Comment: https://keybase.io/crypto
+
+yMIkAnicrZJbSFRBGMfX2soMMVY2io2iAyqhLHPuZ7aHAunii0pPoeEyt6PHXc/Z
+ds9aZkIlJRFEF3pQMyW6IFQUQqQWbSWRGV0eIqIgSqMLrUVREHabY/bWYzMPw3zz
+///m+z6+kfzZvrycalK1PFx85lzO2PXutK92snSiVcAObREirUKMTR8sTlnKjcYs
+KkQEIPLNCIIGQrKJiKFoVFaIrspYNjQVUFkSCaOE6hRSUwcKVSFkkgZ0HUAdmwhL
+DCChTDAtu54lE0nLdjmWGrKIIATUgBJCRIcMMh2LqiirsoqYoiBmGpqscGODk/Ic
+PDmMUixsOTzGL9Hp9P6h/895p//gTIlBThCpZkpIUqGCoakBgAmkxBChJ0yxpI2a
+GFfb6SZOiMeFtjKBR5stwrzGepXMKNKpJmTHGraiRhQmThO3J5KO6xAnzh8bXDeR
+inhmtyXhqbcyHJ3hRLFlU95K7mhmyZTl2EJE5EriWh5YVBVJllVFA2UC25awkixq
+eQpV1wzAl/cPa+ZIwiUMylgDmqoArBKZQkIRQho2IGEIYIQY0TUGKVQZRBIBIlaw
+AhDGOhKJ4FW2xXY4m0NdVM+ZKaveRm46yYS2G5nNfl9Onm/unFnejPny5i/8O3kD
+z3J910cb9+/s/1bRvWpp+9s2f+G8jx3nR7o2Dm34go507/YXBL8O3Dc6gp/VC4G+
+mlwSsJ+0R8qPrnAuLvh0tark8ljbPnVV17HZg+mKd+GOkgcbgtfWxOtqzScF2dJb
+Ie2X+OgkeHV808Zlw3vP+sdR6KUeWv34x8/nqMedVzxBJ6amAuOd1db6zJXvTmhH
+sZ4hwYNPf9ztW1y88k3rThqYXNfLlmRPlx/ozYeHb74YvZEp2lTke3goOgxr5izZ
+TNVL2x3q/7I6m31fu6vuzp7O7PzPnRm7J/yhJDBEX2sn+m/nrz012artv/fz4UDp
+aO2jysK5NqmpjC3Ki/VV3xr8DYv/QXU=
+=Hi+v
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/numbfall
+
+==================================================================

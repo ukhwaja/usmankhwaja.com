@@ -1,0 +1,17 @@
+[build]
+    publish = "public"
+    command = "hugo"
+    functions = "./functions"
+
+[build.environment]
+    HUGO_VERSION = "0.62.1"
+[[redirects]]
+    from = "https://usmankhwaja.netlify.com/*"
+    to = "https://usmankhwaja.com/:splat"
+    status = 301
+    force = true
+
+[[headers]]
+    for = "/*"
+    [headers.values]
+        Link = "<https://cdn.ampproject.org/v0.js>; rel=preload; as=script, <https://fonts.gstatic.com/>; rel=preconnect, <https://www.googletagmanager.com>; rel=preconnect, <https://img.icons8.com/>; rel=preconnect"

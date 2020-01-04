@@ -1,0 +1,13 @@
+<code>
+    {{ range .Site.Data.footprint.footprint }}
+    <a rel="nofollow noreferrer" target="_blank" 
+        class="flex items-center pa2 w-fit underline-hover link color-inherit"
+        href="{{ .url }}">
+        <amp-img class="bg-transparent color-invert" width="20" height="20" layout="fixed" src="{{ .image }}">
+            <amp-img alt="{{substr .name 0 2}}" placeholder width="20" height="20" src="/placeholder.png"
+                layout="fixed"></amp-img>
+        </amp-img>
+        <strong class="ph2 w4">{{ .name }}</strong><span class="ph1">{{ .title }}</span>
+    </a>
+    {{ end }}
+</code>

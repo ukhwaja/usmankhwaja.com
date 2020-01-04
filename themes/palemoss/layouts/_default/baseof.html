@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{.Site.LanguageCode}}" amp>
+
+{{ partial "head" . }}
+
+<body class="my-serif">
+    {{ if not (eq .Kind "home") }}
+        <a class="f6 br-pill ba pv3 ph4 ma3 dib color-inherit hover-bg-my-color no-underline" href="/">&larr; Home</a>
+    {{ end }}
+    <amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-WZ734C5&gtm.url=SOURCE_URL"
+        data-credentials="include"></amp-analytics>
+    <div id="content" class="pt2 pt4-ns">
+        {{ block "main" . }}{{ end }}
+    </div>
+    {{ if not (eq .Kind "404") }}
+    {{ partial "footer" . }}
+    <script type="application/ld+json">
+        {{ partial "search-gallery" . | safeJS }}
+    </script>
+    {{ end }}
+    <amp-install-serviceworker src="/serviceworker.js" layout="nodisplay">
+    </amp-install-serviceworker>
+</body>
+
+</html>

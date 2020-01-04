@@ -1,0 +1,61 @@
+{{ if and (.IsPage) (eq .Section "blog") }}
+      {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "{{ .Site.BaseURL }}"
+        },
+        "articleSection" : "{{ .Section | humanize }}",
+        "name" : "{{ range first 1 .Params.categories }}{{ . }}{{ end }}",
+        "headline" : "{{ .Title }}",
+        "description" : "{{ .Summary | truncate 125 }}",
+        "inLanguage" : "en-US",
+        "author" : {
+          "@type": "Person",
+          "name": "{{ .Site.Title }}"
+        },
+        "creator": {
+          "@type": "Person",
+          "name": "{{ .Site.Title }}"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "{{ .Site.Title }}",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "{{ delimit .Site.Params.images ", " }}",
+            "width": 40,
+            "height": 40
+          }
+        },
+        "accountablePerson": "{{ .Site.Title }}",
+        "copyrightHolder" : {
+          "@type": "Person",
+          "name": "{{ .Site.Title }}"
+        },
+        "copyrightYear" : "{{ .Date.Format "2006" }}",
+        "datePublished": "{{ .PublishDate }}",
+        "dateModified" : "{{ .Lastmod }}",
+        "url" : "{{ .Permalink }}",
+        "wordCount" : "{{ .WordCount }}",
+        "keywords" : "{{ if isset .Params "keywords" }}{{ delimit .Params.keywords ", "}} , blog{{ end }}",
+        "image": "{{ if isset .Params "images" }}{{ delimit .Params.images ", " }}{{ else }}{{ delimit .Site.Params.images ", " }}{{ end }}"
+      }
+      {{ else }}
+      {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "{{ .Site.Title }}",
+        "url": "{{ .Site.BaseURL }}",
+        "author": {
+          "@type": "Person",
+          "name": "{{ .Site.Title }}",
+          "sameAs": [
+            "https://twitter.com/{{ .Site.Params.twitter }}",
+            "https://github.com/{{ .Site.Params.github }}"
+          ]
+        },
+        "description": "{{ .Site.Params.description }}"
+      }
+{{ end }}

@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="mw7 center">
+    <div class="pv4 ph3 ph0-l">
+        <h1 class="normal f2 lh-title my-sans-serif mv3">{{ .Title }}</h1>
+        <span class="normal lh-solid">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+    </div>
+    <div class="content lh-copy mt4 ph3 ph0-l">
+        {{ .Content }}
+    </div>
+    <p class="f5 db mt4 tc gray">-- end --</p>
+    <div class="tags pv4 ph3 ph0-l">
+            {{ $taxo := "categories" }}
+            {{ range .Params.categories }}
+            {{ $name := . }}
+            {{ with $.Site.GetPage (printf "/%s/%s" $taxo $name) }}
+        <a class="br-pill ba ph3 pv2 ma2 dib no-underline color-inherit hover-bg-my-color"
+            href="{{ .RelPermalink }}">{{ $name }}</a>
+        {{ end }}
+        {{ end }}
+    </div>
+    {{ partial "author" . }}
+</div>
+<script type="application/ld+json">
+    {{ partial "breadcrumbs-list" . | safeJS }}
+</script>
+{{ end }}

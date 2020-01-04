@@ -1,0 +1,119 @@
+[footprint.twitter]
+  image = "https://img.icons8.com/ios-filled/20/dddddd/twitter.png"
+  title = "@numbfall"
+  name = "Twitter"
+  url = "https://twitter.com/numbfall"
+
+[footprint.facebook]
+  image = "https://img.icons8.com/ios-filled/20/dddddd/facebook.png"
+  title = "numbfall"
+  name = "Facebook"
+  url = "https://facebook.com/numbfall"
+
+[footprint.instagram]
+  image = "https://img.icons8.com/ios-filled/20/dddddd/instagram.png"
+  title = "u.khwaja"
+  name = "Instagram"
+  url = "https://instagram.com/u.khwaja"
+
+[footprint.linkedin]
+  image = "https://img.icons8.com/ios-filled/20/dddddd/linkedin.png"
+  title = "in/usmankhwaja"
+  name = "LinkedIn"
+  url = "https://linkedin.com/in/usmankhwaja"
+
+[footprint.github]
+  image = "https://img.icons8.com/ios-filled/20/dddddd/github.png"
+  title = "numbfall"
+  name = "Github"
+  url = "https://github.com/numbfall"
+
+[footprint.xbox]
+  image = "https://img.icons8.com/ios-filled/20/dddddd/xbox.png"
+  title = "CloakSeeker"
+  name = "Xbox Gamertag"
+  url = "http://live.xbox.com/en-US/Profile?gamertag=CloakSeeker"
+
+[footprint.steam]
+  image = "https://img.icons8.com/ios-filled/20/dddddd/steam.png"
+  title = "numbfall"
+  name = "Steam ID"
+  url = "https://steamcommunity.com/id/numbfall"
+
+[footprint.deviantart]
+  image = "https://img.icons8.com/ios-filled/20/dddddd/devianart.png"
+  title = "numbfall"
+  name = "DeviantArt"
+  url = "https://deviantart.com/numbfall"
+
+[footprint.behance]
+  image = "https://img.icons8.com/ios-filled/20/dddddd/behance.png"
+  title = "numbfall"
+  name = "Behance"
+  url = "https://www.behance.net/numbfall/"
+
+[footprint.dribble]
+  image = "https://img.icons8.com/ios-filled/20/dddddd/dribbble.png"
+  title = "numbfall"
+  name = "Dribbble"
+  url = "https://dribbble.com/numbfall"
+
+[footprint.flickr]
+  image = "https://img.icons8.com/ios-filled/20/dddddd/flickr.png"
+  title = "numbfall"
+  name = "Flickr"
+  url = "https://www.flickr.com/photos/numbfall"
+
+[footprint.codepen]
+  image = "https://img.icons8.com/ios-filled/20/dddddd/codepen.png"
+  title = "numbfall"
+  name = "CodePen"
+  url = "https://codepen.io/numbfall/#"
+
+[footprint.reddit]
+  image = "https://img.icons8.com/ios-filled/20/dddddd/reddit.png"
+  title = "u/numbfall"
+  name = "Reddit"
+  url = "https://www.reddit.com/user/numbfall"
+
+[footprint.youtube]
+  image = "https://img.icons8.com/ios-filled/20/dddddd/youtube-play.png"
+  title = "numbfall"
+  name = "YouTube"
+  url = "https://www.youtube.com/user/numbfall"
+
+[footprint.vimeo]
+  image = "https://img.icons8.com/ios-filled/20/dddddd/vimeo.png"
+  title = "numbfall"
+  name = "Vimeo"
+  url = "https://www.vimeo.com/numbfall"
+
+[footprint.mixer]
+  image = "https://img.icons8.com/ios-filled/20/dddddd/microsoft-mixer.png"
+  title = "CloakSeeker"
+  name = "Mixer"
+  url = "https://mixer.com/CloakSeeker"
+
+[footprint.twitch]
+  image = "https://img.icons8.com/ios-filled/20/dddddd/twitch.png"
+  title = "numbfall"
+  name = "Twitch"
+  url = "https://www.twitch.tv/numbfall"
+
+[footprint.vk]
+  image = "https://img.icons8.com/ios-filled/20/dddddd/vk-com.png"
+  title = "numbfall"
+  name = "VK"
+  url = "https://vk.com/numbfall"
+
+[footprint.news]
+  image = "https://img.icons8.com/ios-filled/20/dddddd/y-combinator.png"
+  title = "numbfall"
+  name = "Hacker News"
+  url = "https://news.ycombinator.com/user?id=numbfall"
+
+[footprint.keybase]
+  image = "https://img.icons8.com/ios-filled/20/dddddd/keybase2.png"
+  title = "numbfall"
+  name = "Keybase"
+  url = "https://keybase.io/numbfall"

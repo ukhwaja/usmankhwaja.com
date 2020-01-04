@@ -1,0 +1,7 @@
+<label class="flex">
+    <textarea class="pa2 db ba bw0 br1 input-reset bg-moon-gray" on="input-throttled:AMP.setState({ length: event.value.length, maxlength: 20 })" cols="20" rows="3" maxlength="20" autocomplete="off"></textarea>
+    <span class="code bg-yellow black self-center f2 ph3 pv1 ml3" hidden [hidden]="length < 1" [text]="textCounter(length, maxlength)"></span>
+    </label>
+     <amp-bind-macro id="textCounter"
+        arguments="length, maxlength"
+        expression="maxlength - length" />

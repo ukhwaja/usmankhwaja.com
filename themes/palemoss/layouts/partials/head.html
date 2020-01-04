@@ -1,0 +1,113 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
+    {{ if and (eq .Type "blog") (eq .Kind "page") }}{{ template "_internal/schema.html" . }}{{ end }}
+    <meta name="description" content="{{ if and (eq .Section `posts`) (not .IsNode) }}Post &mdash; {{ .Params.title }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <meta name="author" content="{{ .Site.Title }}">
+    <meta name="keywords" content="{{ delimit .Site.Params.keywords `, `}}">
+    {{ hugo.Generator }}
+    {{ template "_internal/twitter_cards.html" . }}
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
+    <link rel="preconnect dns-prefetch" href="https://fonts.gstatic.com/" crossorigin>
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+    <link rel="preconnect" href="https://img.icons8.com/" crossorigin>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    {{ if ne (getenv "HUGO_ENV") "development" }}
+    <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
+    {{ end }}
+    <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+
+    {{ htmlUnescape "&lt;style amp-custom&gt;" | safeHTML }}
+    {{ with resources.Get "css/styles.css" | resources.PostCSS | resources.Minify}}
+    {{ .Content | safeHTML }}
+    {{ end }}
+    {{ htmlUnescape "&lt;/style&gt;" | safeHTML }}
+
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Fjord+One&display=swap" rel="stylesheet">
+
+    {{ partial "icons" . }}
+
+    <style amp-boilerplate>
+        body {
+            -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            animation: -amp-start 8s steps(1, end) 0s 1 normal both
+        }
+
+        @-webkit-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-moz-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-ms-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-o-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+    </style><noscript>
+        <style amp-boilerplate>
+            body {
+                -webkit-animation: none;
+                -moz-animation: none;
+                -ms-animation: none;
+                animation: none
+            }
+        </style>
+    </noscript>
+
+    <link rel="canonical" href="{{ .Permalink | absLangURL }}">
+
+    <title>
+        {{ if not .IsHome }}
+            {{ .Title }}
+            {{ $node := .Site.GetPage .Section }}
+            {{ if and ( .IsDescendant $node ) ( not ( .IsAncestor $node ) ) }}
+            &mdash; {{ .Section | humanize }}
+            {{end}}
+            &mdash;
+        {{ end }}
+        {{ .Site.Title }}
+    </title>
+</head>

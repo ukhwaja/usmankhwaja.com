@@ -1,0 +1,14 @@
+<div class="flex mw8 center flex-wrap justify-center">
+    {{ $currentPage := .Site.GetPage .Section }}
+    <div class="w-20 w-25-ns ph2 flex flex-nowrap justify-start flex-auto">
+        <a class="outline-0 relative tc pt2 pl2" href="/"><amp-img layout="fixed" width="32" height="32" class="br-100 ba bw1 {{ if .IsHome }}primary{{else}}near-black{{ end }}" src="/favicon-32x32.png"></amp-img></a>
+    </div>
+    <nav class="w-80 w-75-ns ph2 flex flex-nowrap justify-end flex-auto">
+        {{ range .Site.Menus.main }}
+        <a class="w4 outline-0 no-underline dn db-ns hover-primary pa3 tc {{ if eq $currentPage.RelPermalink .URL  }}primary{{ end }}"
+        href="{{ .URL }}">{{ .Name }}
+        </a>
+        {{ end }}
+        <div role="button" on="tap:sidebar1.open" tabindex="0" class="outline-0 relative pa3 dn-ns tc">Menu</div>
+    </nav>
+</div>

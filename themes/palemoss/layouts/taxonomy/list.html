@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="mw7 center">
+    <div class="tc pt4 pb5 bb b--my-border-color">
+        <h1 class="normal my-sans-serif f1 mv3">{{ .Title }}</h1>
+    </div>
+    <div class="pv2 pv4-m pv5-l ph2 ph4-m ph5-l">
+        {{ range .Data.Terms.ByCount }}
+        <a class="br-pill ba ph3 pv2 ma2 dib no-underline color-inherit hover-bg-my-color" href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>            
+        {{ end }}
+    </div>
+</div>
+{{ end }}

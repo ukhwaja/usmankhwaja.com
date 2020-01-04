@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="mw7 center">
+    {{ $list := .Data.Pages }}
+    <div class="tc pt4 pb5 bb b--my-border-color">
+        <h1 class="normal my-sans-serif f1 mv3">{{ .Data.Term }}</h1>
+        {{ $t := .Site.GetPage .Type }}
+        <span class="f4 normal"><span>{{ len $list }} {{ if gt (len $list) 1 }}{{ "post" | pluralize }}{{ else }}post{{ end }} in </span>
+        {{ $t.Name | lower | singularize }}</span> of <a class="link color-inherit underline" title="{{ $t.Name }}" href="{{ $t.Permalink }}">{{ $t.Name }}</a>
+    </div>
+    <div>
+        {{ range $index, $value := $list }}
+        <div class="w-80 center pv2 pv4-m pv5-l ph2 ph4-m ph5-l mt3 {{ if lt ( add $index 1) (len $list) }}bb b--my-border-color{{ end }}">
+            {{ .Render "li"}}
+        </div>
+        {{ end }}
+    </div>
+</div>
+<script type="application/ld+json">
+    {{ partial "breadcrumbs-list" . | safeJS }}
+</script>
+{{ end }}
