@@ -1,6 +1,5 @@
-<h4 class="f6 lh-solid tc normal ttu ma0">{{ .Date.Format "Mon, Jan 2, 2006" }}</h4>
-<h3 class="f3 normal lh-title mt2 mb2 tc underline-hover my-sans-serif"><a href="{{ .RelPermalink }}" class="db link w-100 color-inherit">{{ .Title }}</a></h3>
-<h5 class="f6 lh-solid tc normal ma0">
+<h4 class="f6 lh-solid tc normal ma0">
+    {{ .Date.Format "2 Jan, 2006" }} &sdot;
     in 
     {{ $taxo := "categories" }}
             {{ range .Params.categories }}
@@ -10,5 +9,6 @@
             href="{{ .RelPermalink }}">{{ $name }}</a>
         {{ end }}
         {{ end }}
-</h5>
+</h4>
+<h3 class="f3 normal lh-title mt2 mb2 tc underline-hover my-sans-serif"><a href="{{ .RelPermalink }}" class="db link w-100 color-inherit">{{ .Title }}</a></h3>
 <p class="lh-copy mt4">{{ .Summary }}</p>

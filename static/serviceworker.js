@@ -27,43 +27,43 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "496ad71b7382d7baca5c871aa8b4f838"
+    "revision": "a8ba8c7cc30920419af651598373408f"
   },
   {
     "url": "index.html",
-    "revision": "3fc9712d8300297f279bdbed8ff8d64c"
+    "revision": "6567fc86df5f86108e503913418a2a4c"
   },
   {
     "url": "categories/code/index.html",
-    "revision": "4cc0a8d3e88733b8011be01a77d18235"
+    "revision": "4aa571baaa2ba8523bb9953a1a7fc361"
   },
   {
     "url": "categories/index.html",
-    "revision": "4ebfcacd64393ca3b18952855cfab657"
+    "revision": "3dc663adc5e79b471e89e3d9370aa75a"
   },
   {
     "url": "categories/personal/index.html",
-    "revision": "90936d112e8566aae3802701a740b724"
+    "revision": "ab68b31f36dc69306dfc5b5ff920f4a8"
   },
   {
     "url": "creating-google-sheets-web-app-for-catching-netlify-webhooks/index.html",
-    "revision": "579b297132d1f92954406aa9b28ba70e"
+    "revision": "ab9c4725e47750f126826cd5b231a2dd"
   },
   {
     "url": "enable-term-jquery-in-vue-cli-3-scaffolded-project/index.html",
-    "revision": "724b695338190162084195293830ff24"
+    "revision": "8844831c08ce96226444dc7204b99e11"
   },
   {
     "url": "hugo-tachyons-src-without-gulp-or-webpack/index.html",
-    "revision": "ff5bf800371904f2cd4ab39729a8e8e3"
+    "revision": "050b305619331aaf03093515884ba667"
   },
   {
     "url": "lambda-function-on-netlify-as-endpoint-for-google-amp-form/index.html",
-    "revision": "b7afe0ecb8ca668177e85f60933f83f3"
+    "revision": "0417f7bd218b149f13d0002e093cc280"
   },
   {
     "url": "my-digital-footprint/index.html",
-    "revision": "af1fbf4a38a56a82287926042e7a406f"
+    "revision": "974696ef042b6f3f129bc19e740c6d0f"
   },
   {
     "url": "page/1/index.html",
@@ -71,19 +71,19 @@ self.__precacheManifest = [
   },
   {
     "url": "page/2/index.html",
-    "revision": "ecab4b6c181827a8cd0ef190f5164160"
+    "revision": "a422a90606af9f0835f2b8e018fc3963"
   },
   {
     "url": "show-remaining-characters-in-textarea-using-amp-bind/index.html",
-    "revision": "70b063764a4f1f1c30cbe82645e306b3"
+    "revision": "70543f727381f27ba5683c50b29b2ffc"
   },
   {
     "url": "using-hugo-htmlunescape-function-to-solve-selector-expected-errors/index.html",
-    "revision": "618083df85f00ae6e80f6c7138e66bf0"
+    "revision": "e45fb6e6fb6635ea8d1bc7b20f42cd5b"
   },
   {
     "url": "welcome-to-my-site/index.html",
-    "revision": "19a18f19c1c6566a1ea0350468fa37f6"
+    "revision": "7693b1d3f2d3a8c7ca64e3649ebe5fa4"
   },
   {
     "url": "using-hugo-htmlunescape-function-to-solve-selector-expected-errors/html-error.webp",
