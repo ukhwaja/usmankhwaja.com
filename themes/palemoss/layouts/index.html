@@ -9,14 +9,16 @@
             {{ .Content }}
         </h2>
     </div>
+    <div class="w-90 w-80-ns center">
         {{ $paginator := .Paginate (.Site.RegularPages.ByPublishDate.Reverse) 5 }}
         {{ range $paginator.Pages }}
-        <div class="w-90 w-80-ns center pv2 pv4-m pv5-l mt3 bb b--my-border-color ph2 ph3-m ph5-l">
+        <div class="pv2 pv4-m pv5-l mt3 bb b--my-border-color ph2 ph3-m ph5-l">
             {{ .Render "li"}}
         </div>
         {{ end }}
-        <div class="w-80 center pv2">
+        <div class="pv2 pv3-ns">
         {{ partial "pagination" . }}
         </div>
+    </div>
 </div>
 {{ end }}
