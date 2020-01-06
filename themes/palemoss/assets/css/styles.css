@@ -23,6 +23,10 @@ pre {
     padding: 1rem;
 }
 
+code {
+    font-size: 0.9rem;
+}
+
 /* pre:hover,
 pre:focus {
     position: relative;
