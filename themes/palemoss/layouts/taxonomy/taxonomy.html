@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="mw7 center">
     {{ $list := .Data.Pages }}
-    <div class="tc pt4 pb5 bb b--my-border-color">
+    <div class="tc pv3 pv4-m pv5-l bb b--my-border-color">
         <h1 class="normal my-sans-serif f1 mv3">{{ .Data.Term }}</h1>
         {{ $t := .Site.GetPage .Type }}
         <span class="f4 normal"><span>{{ len $list }} {{ if gt (len $list) 1 }}{{ "post" | pluralize }}{{ else }}post{{ end }} in </span>
