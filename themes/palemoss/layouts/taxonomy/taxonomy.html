@@ -4,8 +4,10 @@
     <div class="tc pv3 pv4-m pv5-l bb b--my-border-color">
         <h1 class="normal my-sans-serif f1 mv3">{{ .Data.Term }}</h1>
         {{ $t := .Site.GetPage .Type }}
-        <span class="f4 normal"><span>{{ len $list }} {{ if gt (len $list) 1 }}{{ "post" | pluralize }}{{ else }}post{{ end }} in </span>
+        <h2 class="f5 normal">
+        <span>{{ len $list }} {{ if gt (len $list) 1 }}{{ "post" | pluralize }}{{ else }}post{{ end }} in </span>
         {{ $t.Name | lower | singularize }}</span> of <a class="link color-inherit underline" title="{{ $t.Name }}" href="{{ $t.Permalink }}">{{ $t.Name }}</a>
+        </h2>
     </div>
     <div>
         {{ range $index, $value := $list }}
