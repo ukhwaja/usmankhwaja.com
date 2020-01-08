@@ -1,5 +1,5 @@
 ---
-title: Show remaining characters in <textarea> using amp-bind
+title: Show remaining characters in textarea using amp-bind
 date: 2019-04-25T18:28:59+05:00
 categories: ["Code"]
 tags: ["AMP"]
