@@ -6,7 +6,7 @@
             {{ .Title }}
         </h1>
         <h2 class="normal f4 f3-ns">
-            {{ .Site.Home.Content | replaceRE "<p>.+?</p>" "" }}
+            {{ replaceRE "</?p>" "" .Site.Home.Content | safeHTML }}
         </h2>
     </div>
     <div class="w-90 w-80-ns center">

@@ -3,7 +3,7 @@
     <div class="pl4">
         <h4 class="normal my-sans-serif f3 mv2">{{ .Site.Title }}</h4>
         <div class="mv2">
-            {{ .Site.Home.Content | replaceRE "<p>.+?</p>" "" }}
+            {{ replaceRE "</?p>" "" .Site.Home.Content | safeHTML }}
         </div>
     </div>
 </div>
