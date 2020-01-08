@@ -4,10 +4,11 @@ module.exports = {
     '*.html',
     '**/index.html',
     '**/*.webp',
+    'apple-touch-icon.png',
   ],
   swDest: 'static/serviceworker.js',
   runtimeCaching: [{
-    urlPattern: /\.(?:webp|gif)$/,
+    urlPattern: /\.(?:webp|gif|png)$/,
     handler: 'CacheFirst',
     options: {
       cacheName: 'images',

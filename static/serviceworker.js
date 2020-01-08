@@ -27,43 +27,43 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "793324c0d7892a6ebbc78f90b983910d"
+    "revision": "fdab042d8a18d43feac97af5fdf2b6b1"
   },
   {
     "url": "index.html",
-    "revision": "aa7a2d5b0cd12357961a42c6c5d59966"
+    "revision": "2ba8749fc20b873be8310b1401b8d4a1"
   },
   {
     "url": "categories/code/index.html",
-    "revision": "34806dbadfd5b617cb76e3c7ba59c85b"
+    "revision": "35c5f0f95025a42cddd1c0d409492261"
   },
   {
     "url": "categories/index.html",
-    "revision": "ec63ab3e1bbf56c2b301ab177b57e998"
+    "revision": "c7dc2bff5ab08cc66d1631024de41b0b"
   },
   {
     "url": "categories/personal/index.html",
-    "revision": "52f626fce376321cd416c5152f8c6c5f"
+    "revision": "cebbbe9a0daf04d792e01cf3ba2e8cf5"
   },
   {
     "url": "creating-google-sheets-web-app-for-catching-netlify-webhooks/index.html",
-    "revision": "a51fb73353fcb33f2ebc83dbfb7917e6"
+    "revision": "5af94ab87ed434ce45082ddc63ad5ac6"
   },
   {
     "url": "enable-term-jquery-in-vue-cli-3-scaffolded-project/index.html",
-    "revision": "0588f705ec731affa3c489c8f35626b6"
+    "revision": "9ef68325a9990958770f409940c0ddf5"
   },
   {
     "url": "hugo-tachyons-src-without-gulp-or-webpack/index.html",
-    "revision": "cdff1b0a87760222036de0c02c533956"
+    "revision": "089953a484cf1e076b027618aca025aa"
   },
   {
     "url": "lambda-function-on-netlify-as-endpoint-for-google-amp-form/index.html",
-    "revision": "c8890dae6da1d73e303800aafda858f2"
+    "revision": "483b8ae0885938d410ad2bdd77652f95"
   },
   {
     "url": "my-digital-footprint/index.html",
-    "revision": "40b5aaac56f7396b70c251feb567e047"
+    "revision": "ed6c1cb8b04aa90147e13ac6c49154e3"
   },
   {
     "url": "page/1/index.html",
@@ -71,27 +71,31 @@ self.__precacheManifest = [
   },
   {
     "url": "page/2/index.html",
-    "revision": "57dd9d3729ea5aa206743e33055d0690"
+    "revision": "802c26c20f4c37cfc4a4186c3d315a17"
   },
   {
     "url": "show-remaining-characters-in-textarea-using-amp-bind/index.html",
-    "revision": "0e4232f434d132b66814b084602cda49"
+    "revision": "24d4dbf21b77ebd25dbbddf569cb5b86"
   },
   {
     "url": "using-hugo-htmlunescape-function-to-solve-selector-expected-errors/index.html",
-    "revision": "eb3b772605a028894b05c3df330ad33e"
+    "revision": "a9f24e9beea677b5cbca3c176c4068f2"
   },
   {
     "url": "welcome-to-my-site/index.html",
-    "revision": "8efeb673abc568a918feb24885b68acd"
+    "revision": "32bd8f21a69b8db56df93b2fdaea6e57"
   },
   {
     "url": "using-hugo-htmlunescape-function-to-solve-selector-expected-errors/html-error.webp",
     "revision": "75f47af35a34db0296f315d7963f1ed0"
+  },
+  {
+    "url": "apple-touch-icon.png",
+    "revision": "8cbf43d949490e6cac6abdb04cf6e402"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerRoute(/\.(?:webp|gif)$/, new workbox.strategies.CacheFirst({ "cacheName":"images", plugins: [new workbox.expiration.Plugin({ maxEntries: 10, maxAgeSeconds: 604800, purgeOnQuotaError: false })] }), 'GET');
+workbox.routing.registerRoute(/\.(?:webp|gif|png)$/, new workbox.strategies.CacheFirst({ "cacheName":"images", plugins: [new workbox.expiration.Plugin({ maxEntries: 10, maxAgeSeconds: 604800, purgeOnQuotaError: false })] }), 'GET');
 workbox.routing.registerRoute(/^https:\/\/fonts\.googleapis\.com/, new workbox.strategies.StaleWhileRevalidate({ "cacheName":"google-fonts-stylesheets", plugins: [] }), 'GET');
 workbox.routing.registerRoute(/^https:\/\/fonts\.gstatic\.com/, new workbox.strategies.CacheFirst({ "cacheName":"google-fonts-webfonts", plugins: [new workbox.cacheableResponse.Plugin({ statuses: [ 0, 200 ] }), new workbox.expiration.Plugin({ maxAgeSeconds: 31536000, purgeOnQuotaError: false })] }), 'GET');
