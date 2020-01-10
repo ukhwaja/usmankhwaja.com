@@ -58,10 +58,6 @@ pre:focus {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-.color-invert {
-    filter: invert(80%);
-}
-
 /* input:required,
 textarea:required {
     box-shadow: none;
@@ -468,6 +464,10 @@ textarea:required {
     body {
         color: #ddd;
         background-color: #111;
+    }
+
+    .color-invert {
+        filter: invert(100%);
     }
 
     .b--my-border-color {
