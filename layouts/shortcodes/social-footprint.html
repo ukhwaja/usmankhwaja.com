@@ -1,7 +1,7 @@
 <code>
     {{ range .Site.Data.footprint.footprint }}
     <a rel="nofollow noreferrer" target="_blank" 
-        class="flex items-center pa2 w-fit underline-hover link color-inherit"
+        class="flex items-center pa2 w-fit underline-hover no-underline color-inherit"
         href="{{ .url }}">
         <amp-img alt="{{substr .name 0 2}}" noloading class="bg-transparent color-invert" width="20" height="20" layout="fixed" src="{{ .image }}">
         </amp-img>

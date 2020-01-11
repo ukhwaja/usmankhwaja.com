@@ -27,43 +27,43 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "9683afdd5ee919d67f1f9b97178ba62e"
+    "revision": "3216a0f6f871163d2bf553ae4ac570f5"
   },
   {
     "url": "index.html",
-    "revision": "30d7d768ed5e8a1759bea9985dc44d6d"
+    "revision": "b77ce1bf731c7a29389e9fc556b03f22"
   },
   {
     "url": "categories/code/index.html",
-    "revision": "747706581d4c3e4980b3fc769e7c34da"
+    "revision": "d8a4f8d8123607c412adbfb45ac2f6cf"
   },
   {
     "url": "categories/index.html",
-    "revision": "b255d24026113a9b8d1cd0f8ee0ef305"
+    "revision": "304c5e6eb1f258f8d9c450e544bdaaea"
   },
   {
     "url": "categories/personal/index.html",
-    "revision": "c29896bea6f1d7f2185c58628ce35ab3"
+    "revision": "72ae34c5a4ef951622714709619e80bb"
   },
   {
     "url": "creating-google-sheets-web-app-for-catching-netlify-webhooks/index.html",
-    "revision": "a6bba79606e9b16ed2d5f4d4dfdc3eee"
+    "revision": "bb2063bd516bb4691b4519641a2b0311"
+  },
+  {
+    "url": "digital-footprint/index.html",
+    "revision": "ee202d273b98eaafd90ae3adec22e836"
   },
   {
     "url": "enable-term-jquery-in-vue-cli-3-scaffolded-project/index.html",
-    "revision": "604376fd5d33091332e540ef64e1833e"
+    "revision": "368d151fc9604b4d955ae1b75c1fdcfe"
   },
   {
     "url": "hugo-tachyons-src-without-gulp-or-webpack/index.html",
-    "revision": "973bbefad21faa612453c9a4eda540da"
+    "revision": "b73877750915800bc44de82922dacdbc"
   },
   {
     "url": "lambda-function-on-netlify-as-endpoint-for-google-amp-form/index.html",
-    "revision": "2fde500fef81fd7b916faa96bb05ca8a"
-  },
-  {
-    "url": "my-digital-footprint/index.html",
-    "revision": "763ab743021b1b3e0848babc1cd8a6e0"
+    "revision": "bdc5460d3b0abf0fe6e8b608caf21db6"
   },
   {
     "url": "page/1/index.html",
@@ -71,19 +71,23 @@ self.__precacheManifest = [
   },
   {
     "url": "page/2/index.html",
-    "revision": "b51ced11b8f247a8109aeef4499f1e2d"
+    "revision": "c01fad1da15a645b9a896c4b55b2c4c4"
   },
   {
     "url": "show-remaining-characters-in-textarea-using-amp-bind/index.html",
-    "revision": "a09a2502612ed010839a8f8866929caa"
+    "revision": "2bfab50c1e41fadc5453591fcbb2317e"
+  },
+  {
+    "url": "uses/index.html",
+    "revision": "208500edbb1185e1bd20b9ad9e6229e6"
   },
   {
     "url": "using-hugo-htmlunescape-function-to-solve-selector-expected-errors/index.html",
-    "revision": "97c6d66117dbaf3de208bc5756fb6c3f"
+    "revision": "7ee24ccbcf3b008e2efbbdd520ca5689"
   },
   {
     "url": "welcome-to-my-site/index.html",
-    "revision": "e31efe737b1a45e96ba812aec3528dd0"
+    "revision": "bdef82813379e96e2ca2919563ce673c"
   },
   {
     "url": "logo.webp",

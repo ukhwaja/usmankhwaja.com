@@ -33,12 +33,6 @@ code {
     font-size: 0.9rem;
 }
 
-/* pre:hover,
-pre:focus {
-    position: relative;
-    width: 110%;
-} */
-
 .content p code {
     padding: 0.125rem;
     border-radius: .125rem;
@@ -58,28 +52,10 @@ pre:focus {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-/* input:required,
-textarea:required {
-    box-shadow: none;
-} */
-
 .sticky {
     position: sticky;
     top: 5rem;
 }
-
-/* .hidden {
-    visibility: hidden;
-    height: 0;
-} */
-
-.z--1 {
-    z-index: -1;
-}
-
-/* div {
-    border: 1px solid gold;
-} */
 
 /* CHROMA DEFAULT */
 
@@ -459,11 +435,22 @@ textarea:required {
     color: #bbbbbb
 }
 
+.content a.link {
+    color: #da532c;
+}
+
+/* div {
+    border: 1px solid gold;
+} */
 
 @media (prefers-color-scheme: dark) {
     body {
         color: #ddd;
         background-color: #111;
+    }
+
+    .content a.link {
+        filter: invert(100%);
     }
 
     .color-invert {

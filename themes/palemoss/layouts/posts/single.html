@@ -4,10 +4,10 @@
         <h1 class="normal f2 lh-title my-sans-serif mv3">{{ .Title }}</h1>
         <span class="normal lh-solid">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
     </div>
-    <div class="content lh-copy mt4 ph3 ph0-l">
+    <div class="content lh-copy mt4 mt0-ns ph3 ph0-l">
         {{ .Content }}
     </div>
-    <p class="f5 db mt4 tc gray">-- end --</p>
+    <p class="f5 db mv3 mv4-ns tc gray">-- end --</p>
     <div class="tags pv4 ph3 ph0-l">
             {{ $taxo := "categories" }}
             {{ range .Params.categories }}

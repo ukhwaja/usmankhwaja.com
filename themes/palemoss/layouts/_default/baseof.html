@@ -5,11 +5,13 @@
 
 <body class="my-serif">
     {{ if not (eq .Kind "home") }}
+    <nav>
         <a class="f6 br-pill ba pv3 ph4 ma3 dib color-inherit hover-bg-my-color no-underline" href="/">&larr; Home</a>
+    </nav>
     {{ end }}
     <amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-WZ734C5&gtm.url=SOURCE_URL"
         data-credentials="include"></amp-analytics>
-    <div id="content" class="pt2 pt4-ns">
+    <div id="content" class="">
         {{ block "main" . }}{{ end }}
     </div>
     {{ if not (eq .Kind "404") }}
