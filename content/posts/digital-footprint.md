@@ -9,3 +9,5 @@ keywords: ["Social Media", "Digital Footprint"]
 Here is a list of all the social media websites I have a (mostly inactive) profile on. I wish there was a way to purge all this with one click.
 
 {{< social-footprint >}}
+
+Icons by [icons8.com](https://icons8.com)

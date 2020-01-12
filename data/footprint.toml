@@ -1,119 +1,113 @@
 [footprint.twitter]
-  image = "https://img.icons8.com/ios-filled/20/3a3a3a/twitter.png"
-  title = "@numbfall"
+  image = "https://img.icons8.com/color/20/3a3a3a/twitter.png"
+  title = "numbfall"
   name = "Twitter"
   url = "https://twitter.com/numbfall"
 
 [footprint.facebook]
-  image = "https://img.icons8.com/ios-filled/20/3a3a3a/facebook.png"
+  image = "https://img.icons8.com/color/20/3a3a3a/facebook.png"
   title = "numbfall"
   name = "Facebook"
   url = "https://facebook.com/numbfall"
 
 [footprint.instagram]
-  image = "https://img.icons8.com/ios-filled/20/3a3a3a/instagram.png"
+  image = "https://img.icons8.com/color/20/3a3a3a/instagram.png"
   title = "u.khwaja"
   name = "Instagram"
   url = "https://instagram.com/u.khwaja"
 
 [footprint.linkedin]
-  image = "https://img.icons8.com/ios-filled/20/3a3a3a/linkedin.png"
-  title = "in/usmankhwaja"
+  image = "https://img.icons8.com/color/20/3a3a3a/linkedin.png"
+  title = "usmankhwaja"
   name = "LinkedIn"
   url = "https://linkedin.com/in/usmankhwaja"
 
 [footprint.github]
-  image = "https://img.icons8.com/ios-filled/20/3a3a3a/github.png"
+  image = "https://img.icons8.com/color/20/3a3a3a/github.png"
   title = "numbfall"
   name = "Github"
   url = "https://github.com/numbfall"
 
 [footprint.xbox]
-  image = "https://img.icons8.com/ios-filled/20/3a3a3a/xbox.png"
+  image = "https://img.icons8.com/color/20/3a3a3a/xbox.png"
   title = "CloakSeeker"
   name = "Xbox Gamertag"
   url = "http://live.xbox.com/en-US/Profile?gamertag=CloakSeeker"
 
 [footprint.steam]
-  image = "https://img.icons8.com/ios-filled/20/3a3a3a/steam.png"
+  image = "https://img.icons8.com/color/20/3a3a3a/steam.png"
   title = "numbfall"
   name = "Steam ID"
   url = "https://steamcommunity.com/id/numbfall"
 
 [footprint.deviantart]
-  image = "https://img.icons8.com/ios-filled/20/3a3a3a/devianart.png"
+  image = "https://img.icons8.com/color/20/3a3a3a/devianart.png"
   title = "numbfall"
   name = "DeviantArt"
   url = "https://deviantart.com/numbfall"
 
 [footprint.behance]
-  image = "https://img.icons8.com/ios-filled/20/3a3a3a/behance.png"
+  image = "https://img.icons8.com/color/20/3a3a3a/behance.png"
   title = "numbfall"
   name = "Behance"
   url = "https://www.behance.net/numbfall/"
 
 [footprint.dribble]
-  image = "https://img.icons8.com/ios-filled/20/3a3a3a/dribbble.png"
+  image = "https://img.icons8.com/color/20/3a3a3a/dribbble.png"
   title = "numbfall"
   name = "Dribbble"
   url = "https://dribbble.com/numbfall"
 
 [footprint.flickr]
-  image = "https://img.icons8.com/ios-filled/20/3a3a3a/flickr.png"
+  image = "https://img.icons8.com/color/20/3a3a3a/flickr.png"
   title = "numbfall"
   name = "Flickr"
   url = "https://www.flickr.com/photos/numbfall"
 
 [footprint.codepen]
-  image = "https://img.icons8.com/ios-filled/20/3a3a3a/codepen.png"
+  image = "https://img.icons8.com/color/20/3a3a3a/codepen.png"
   title = "numbfall"
   name = "CodePen"
   url = "https://codepen.io/numbfall/#"
 
 [footprint.reddit]
-  image = "https://img.icons8.com/ios-filled/20/3a3a3a/reddit.png"
-  title = "u/numbfall"
+  image = "https://img.icons8.com/color/20/3a3a3a/reddit.png"
+  title = "numbfall"
   name = "Reddit"
   url = "https://www.reddit.com/user/numbfall"
 
 [footprint.youtube]
-  image = "https://img.icons8.com/ios-filled/20/3a3a3a/youtube-play.png"
+  image = "https://img.icons8.com/color/20/3a3a3a/youtube-play.png"
   title = "numbfall"
   name = "YouTube"
   url = "https://www.youtube.com/user/numbfall"
 
 [footprint.vimeo]
-  image = "https://img.icons8.com/ios-filled/20/3a3a3a/vimeo.png"
+  image = "https://img.icons8.com/color/20/3a3a3a/vimeo.png"
   title = "numbfall"
   name = "Vimeo"
   url = "https://www.vimeo.com/numbfall"
 
 [footprint.mixer]
-  image = "https://img.icons8.com/ios-filled/20/3a3a3a/microsoft-mixer.png"
+  image = "https://img.icons8.com/color/20/3a3a3a/microsoft-mixer.png"
   title = "CloakSeeker"
   name = "Mixer"
   url = "https://mixer.com/CloakSeeker"
 
 [footprint.twitch]
-  image = "https://img.icons8.com/ios-filled/20/3a3a3a/twitch.png"
+  image = "https://img.icons8.com/color/20/3a3a3a/twitch.png"
   title = "numbfall"
   name = "Twitch"
   url = "https://www.twitch.tv/numbfall"
 
 [footprint.vk]
-  image = "https://img.icons8.com/ios-filled/20/3a3a3a/vk-com.png"
+  image = "https://img.icons8.com/color/20/3a3a3a/vk-com.png"
   title = "numbfall"
   name = "VK"
   url = "https://vk.com/numbfall"
 
 [footprint.news]
-  image = "https://img.icons8.com/ios-filled/20/3a3a3a/y-combinator.png"
+  image = "https://img.icons8.com/color/20/3a3a3a/y-combinator.png"
   title = "numbfall"
   name = "Hacker News"
   url = "https://news.ycombinator.com/user?id=numbfall"
-
-[footprint.keybase]
-  image = "https://img.icons8.com/ios-filled/20/3a3a3a/keybase2.png"
-  title = "numbfall"
-  name = "Keybase"
-  url = "https://keybase.io/numbfall"

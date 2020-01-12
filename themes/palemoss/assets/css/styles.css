@@ -453,10 +453,6 @@ code {
         filter: invert(100%);
     }
 
-    .color-invert {
-        filter: invert(100%);
-    }
-
     .b--my-border-color {
         border-color: rgba(255, 255, 255, 0.1);
     }
