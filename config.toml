@@ -25,7 +25,6 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
   images = ["https://pbs.twimg.com/profile_images/955102212539191301/-FeTpTi6_400x400.jpg"]
   keywords = ["web", "developer", "jamstack", "font-end", "websites", "blog", "personal", "portfolio", "coding", "software", "frontend"]
   twitter = "numbfall"
-  github = "numbfall"
 
 [permalinks]
   posts = "/:title/"

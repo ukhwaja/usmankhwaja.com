@@ -1,4 +1,25 @@
-<div class="mw7 center pa3 pa4-ns f7 lh-solid bt b--my-border-color">
-<p>Find me on <a href="https://github.com/{{ .Site.Params.github }}" target="_blank" rel="noreferrer nofollow" class="link underline color-inherit">Github</a> or <a href="https://twitter.com/{{ .Site.Params.twitter }}" target="_blank" rel="noreferrer nofollow" class="link underline color-inherit">Twitter</a></p>
-<p>Built with <a href="https://gohugo.io" target="_blank" rel="noreferrer nofollow" class="link underline color-inherit">Hugo</a> and deployed with <a href="https://netlify.com" target="_blank" rel="noreferrer nofollow" class="link underline color-inherit">Netlify</a></p>
+<div class="mw7 flex flex-wrap-reverse justify-between items-center center pa3 pa4-ns f7 lh-solid bt b--my-border-color">
+    <div class="flex-auto tc tl-ns">
+    <p>Find me on 
+        <a href="https://twitter.com/{{ .Site.Params.twitter }}"
+            target="_blank" rel="noreferrer nofollow" class="link underline color-inherit">Twitter</a>, 
+        <a href="https://github.com/{{ .Site.Params.twitter }}" target="_blank" rel="noreferrer nofollow"
+            class="link underline color-inherit">Github</a>
+            , or 
+        <a href="https://keybase.io/{{ .Site.Params.twitter }}" target="_blank" rel="noreferrer nofollow"
+            class="link underline color-inherit">Keybase</a> for secrets.</p>
+    <p>Built with 
+        <a href="https://gohugo.io" target="_blank" rel="noreferrer nofollow"
+            class="link underline color-inherit">Hugo</a> and deployed by 
+        <a href="https://netlify.com"
+            target="_blank" rel="noreferrer nofollow" class="link underline color-inherit">Netlify</a></p>
+        </div>
+        <div class="flex-auto mv2 mv0-ns tc tr-ns">
+            <nav class="dib">
+                <a class="ph2 link underline-hover color-inherit" href="/">Home</a>
+                <a class="ph2 link underline-hover color-inherit" href="/uses">Uses</a>
+                <a class="ph2 link underline-hover color-inherit" href="/sitemap.xml">Sitemap</a>
+                <a class="ph2 link underline-hover color-inherit" href="/index.xml" download>RSS Feed</a>
+            </nav>
+        </div>
 </div>
