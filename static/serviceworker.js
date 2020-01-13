@@ -51,7 +51,7 @@ self.__precacheManifest = [
   },
   {
     "url": "digital-footprint/index.html",
-    "revision": "a5e0e8d72f07df6db82402029cfec169"
+    "revision": "abd3005abb9ec4ac2a699a9080547f66"
   },
   {
     "url": "enable-term-jquery-in-vue-cli-3-scaffolded-project/index.html",

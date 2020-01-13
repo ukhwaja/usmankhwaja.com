@@ -37,7 +37,7 @@
 [footprint.steam]
   image = "https://img.icons8.com/color/20/3a3a3a/steam.png"
   title = "numbfall"
-  name = "Steam ID"
+  name = "Steam"
   url = "https://steamcommunity.com/id/numbfall"
 
 [footprint.deviantart]
@@ -90,9 +90,9 @@
 
 [footprint.mixer]
   image = "https://img.icons8.com/color/20/3a3a3a/microsoft-mixer.png"
-  title = "CloakSeeker"
+  title = "numbfall"
   name = "Mixer"
-  url = "https://mixer.com/CloakSeeker"
+  url = "https://mixer.com/numbfall"
 
 [footprint.twitch]
   image = "https://img.icons8.com/color/20/3a3a3a/twitch.png"
