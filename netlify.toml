@@ -15,4 +15,7 @@
 [[headers]]
     for = "/*"
     [headers.values]
-        Link = "<https://cdn.ampproject.org/v0.js>; rel=preload; as=script, <https://fonts.gstatic.com/>; rel=preconnect, <https://www.googletagmanager.com>; rel=preconnect, <https://img.icons8.com/>; rel=preconnect"
+        Link = "<https://cdn.ampproject.org/v0.js>; rel=preload; as=script, <https://fonts.gstatic.com/>; rel=preconnect"
+    for = "/digital-footprint"
+    [headers.values]
+        Link = "<https://img.icons8.com/>; rel=preconnect"
