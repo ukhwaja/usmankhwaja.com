@@ -435,8 +435,18 @@ code {
     color: #bbbbbb
 }
 
-.content a.link {
+.content a.link,
+.content a.footnote-ref,
+.content a.footnote-backref {
     color: #da532c;
+}
+
+.content hr {
+    opacity: 0.25;
+}
+
+.content .footnotes li p {
+    margin: 0;
 }
 
 /* div {
@@ -453,7 +463,9 @@ code {
         box-shadow: none;
     }
 
-    .content a.link {
+    .content a.link,
+    .content a.footnote-ref,
+    .content a.footnote-backref {
         filter: invert(100%);
     }
 

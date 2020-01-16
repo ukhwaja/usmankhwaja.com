@@ -9,19 +9,26 @@ keywords: ["Uses", "Development", "Tools", "Dev", "Environment"]
 By popular demand and influence of [uses.tech](https://uses.tech/), here is my /uses list.
 
 - Surface Book 2, i7, 8GB, and 256GB SSD, with Surface Arc Mouse and Pen:
-    - Windows 10, on Insider Slow Ring. (Will go back to stable after April release)
-    - VS Code, with WSL Remote
-        - WSL2, with [Pengwin](https://www.whitewaterfoundry.com/) as linux distribution of choice
-        - Running Node and Yarn of course
-    - Firefox Developer Edition and Microsoft Edge Dev
-    - [Affinity](https://affinity.serif.com/en-us/) Photo, Designer, and Publisher
-    - CyberGhost VPN
+    - Windows 10 on Insider preview Slow Ring. (Will go back to stable after April release).
+    - VS Code, with WSL Remote plugin.
+        - WSL 2, with Pengwin[^pengwin] as linux distribution of choice.
+        - Running Node and Yarn of course.
+    - Firefox Developer Edition[^mozilla].
+    - Affinity[^affinity] Photo, Designer, and Publisher.
+    - CyberGhost VPN. No complaints so far.
 
-- HP Z23n as second monitor
+- HP Z23n as second monitor.
 
-- OnePlus 6, silk white edition
+- OnePlus 6, silk white edition.
 
-- Samsung Galaxy Tab S2, SM-T710
+- Samsung Galaxy Tab S2, SM-T710.
 
-- Samsung Gear s2, classic edition
+- Samsung Gear s2, classic edition.
 
+- Raspberry Pi 2 Model B, for Kodi purposes.
+
+
+
+[^pengwin]: Pengwin is by the awesome [Whitewater Fountry](https://www.whitewaterfoundry.com/).
+[^affinity]: Affinity by [Serif](https://affinity.serif.com/en-us/) is an amazing, **affordable** alternative to the Adobe suite.
+[^mozilla]: I love what [Mozilla](https://www.mozilla.org/en-US/firefox/developer/) is doing.

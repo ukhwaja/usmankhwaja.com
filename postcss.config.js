@@ -19,7 +19,8 @@ module.exports = {
         'themes/palemoss/layouts/**/*.html',
       ],
       whitelist: ['pre'],
-      whitelistPatterns: [/^amp/, /^chroma/],
+      whitelistPatterns: [/chroma/],
+      whitelistPatternsChildren: [/chroma/, /content/],
     },
     'postcss-discard-comments': {
       removeAll: true,
