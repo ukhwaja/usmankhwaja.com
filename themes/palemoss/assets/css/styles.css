@@ -446,12 +446,9 @@ code {
 }
 
 .content .footnotes li p {
-    margin: 0;
+    margin: 0.5rem 0;
+    font-size: 0.875rem;
 }
-
-/* div {
-    border: 1px solid gold;
-} */
 
 @media (prefers-color-scheme: dark) {
     body {
