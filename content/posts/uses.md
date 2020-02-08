@@ -8,7 +8,7 @@ keywords: ["Uses", "Development", "Tools", "Dev", "Environment"]
 
 By popular demand and influence of [uses.tech](https://uses.tech/), here is my /uses list.
 
-- Surface Book 2, i7, 8GB, and 256GB SSD, with Surface Arc Mouse and Pen:
+- Surface Book 2, i7 8th Gen, 8GB RAM, 256GB SSD, and GTX 1050, with Surface Arc Mouse and Pen:
     - Windows 10 on Insider preview Slow Ring. (Will go back to stable after April release).
     - VS Code, with WSL Remote plugin.
         - WSL 2, with Pengwin[^pengwin] as linux distribution of choice.
