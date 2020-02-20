@@ -27,47 +27,47 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "0ca8633e77865a5751e9f148c2e4ef48"
+    "revision": "c3d35044e1465ea497d448d184eb6c88"
   },
   {
     "url": "index.html",
-    "revision": "5cd5ac1a0af6e918fa0c637696a8ac7a"
+    "revision": "f23ffa81ea29f96b699268babe01b385"
   },
   {
     "url": "categories/code/index.html",
-    "revision": "ef3babfa5188e2d2545cf7826643aca4"
+    "revision": "e0641905518ea038ad417cecd295b909"
   },
   {
     "url": "categories/index.html",
-    "revision": "f287e7047141749bf44ed07953870ff5"
+    "revision": "5f7f30871eafbb88fe55eef570ca2582"
   },
   {
     "url": "categories/personal/index.html",
-    "revision": "30c10a3e2c097f0c5505bfb0a8e81761"
+    "revision": "adf97e686543813a9dc3317f736deb35"
   },
   {
     "url": "cloudflare-fast-google-fonts-service-worker-with-google-amp-custom-style-tag/index.html",
-    "revision": "b1e34403514783dd53d06f6b368c52cb"
+    "revision": "1134b7634a7fc97ef35e653b22cd8b24"
   },
   {
     "url": "creating-google-sheets-web-app-for-catching-netlify-webhooks/index.html",
-    "revision": "e7c2f07018e051eff92694b45f77e982"
+    "revision": "f9e89d51927903480f286df954498928"
   },
   {
     "url": "digital-footprint/index.html",
-    "revision": "47be0602583f5c66823fc4b0ce1cccc9"
+    "revision": "d22081fd4254a82793ca21c96d80526e"
   },
   {
     "url": "enable-term-jquery-in-vue-cli-3-scaffolded-project/index.html",
-    "revision": "0a7e14de275ca64d7cea31139c00ff79"
+    "revision": "2c7ec9352340342b85ab0294704d1272"
   },
   {
     "url": "hugo-tachyons-src-without-gulp-or-webpack/index.html",
-    "revision": "dfba6a102f6c94858240392779e79841"
+    "revision": "63ce76fe8963fc5046480bf84296dc58"
   },
   {
     "url": "lambda-function-on-netlify-as-endpoint-for-google-amp-form/index.html",
-    "revision": "4c09e40836e0be6bd303dca0e1dc0392"
+    "revision": "f952f77e386fc7a09e82e46b79cbb921"
   },
   {
     "url": "page/1/index.html",
@@ -75,23 +75,23 @@ self.__precacheManifest = [
   },
   {
     "url": "page/2/index.html",
-    "revision": "62a03aab419878e55b3f656ed0a026b1"
+    "revision": "e73021c8508d81d45b7a822d1e67770d"
   },
   {
     "url": "show-remaining-characters-in-textarea-using-amp-bind/index.html",
-    "revision": "4eed522e2d40a9a4f5011645e832066e"
+    "revision": "fe7d3eda9ca011786c68985698d3e997"
   },
   {
     "url": "uses/index.html",
-    "revision": "037eec16401c52aa1021ec3e3e3ecb3a"
+    "revision": "9e0e8a3ae9a806b91f2007ed97d7ab65"
   },
   {
     "url": "using-hugo-htmlunescape-function-to-solve-selector-expected-errors/index.html",
-    "revision": "42fc7e09fc3711f294273c3490e788e2"
+    "revision": "4bc0cd1ce606341e2c7f63c4e09a5016"
   },
   {
     "url": "welcome-to-my-site/index.html",
-    "revision": "5d627217b43a531141c46251e606e62a"
+    "revision": "4cb852be91958651b10348ff68566531"
   },
   {
     "url": "logo.webp",
