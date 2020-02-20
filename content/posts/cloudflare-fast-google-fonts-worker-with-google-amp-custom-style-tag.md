@@ -11,14 +11,14 @@ The service worker template on Cloudflare's [Workers](https://workers.cloudflare
 
 Here's the code seen in the fast-google-fonts worker file that replaces the actual CSS.
 
-{{< highlight js "linenos=true,linenostart=424" >}}
+```js {linenos=true,linenostart=424}
 // Replace the actual css
     let cssString = "<style" + mediaStr + ">\n";
     cssString += fontCSS;
     cssString += "\n</style>\n";
     content = content.split(matchString).join(cssString);
     fontCSSRegex.lastIndex -= matchString.length - cssString.length;
-{{< / highlight >}}
+```
 
 They are using regex to match the 'link' tag and replace it with the generated font CSS. Lets use the same method and find the existing _amp-custom_ 'style' tag in the content and inject the CSS there. Replace the code above with:
 

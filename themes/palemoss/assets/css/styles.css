@@ -21,12 +21,13 @@ body {
     flex-shrink: 0;
 }
 
-pre {
+.highlight {
     overflow-x: auto;
     overflow-y: hidden;
     border-radius: .25rem;
     padding: 1rem;
     box-shadow: 3px 3px 6px -3px #555;
+    background-color: #f0f0f0;
 }
 
 code {
@@ -456,10 +457,6 @@ code {
         background-color: #111;
     }
 
-    pre {
-        box-shadow: none;
-    }
-
     .content a.link,
     .content a.footnote-ref,
     .content a.footnote-backref {
@@ -476,6 +473,11 @@ code {
 
     .hover-bg-my-color:hover {
         background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .highlight {
+        background-color: #282a36;
+        box-shadow: none;
     }
 
     .content p code {
