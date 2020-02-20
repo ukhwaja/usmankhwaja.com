@@ -18,7 +18,7 @@ module.exports = {
         'layouts/**/*.html',
         'themes/palemoss/layouts/**/*.html',
       ],
-      whitelist: ['pre'],
+      whitelist: ['highlight'],
       whitelistPatterns: [/chroma/],
       whitelistPatternsChildren: [/chroma/, /content/],
     },
