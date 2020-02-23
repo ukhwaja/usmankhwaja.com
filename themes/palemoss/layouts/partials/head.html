@@ -101,10 +101,6 @@
     <title>
         {{ if not .IsHome }}
             {{ .Title }}
-            {{ $node := .Site.GetPage .Section }}
-            {{ if and ( .IsDescendant $node ) ( not ( .IsAncestor $node ) ) }}
-            &mdash; {{ .Section | humanize }}
-            {{end}}
             &mdash;
         {{ end }}
         {{ .Site.Title }}

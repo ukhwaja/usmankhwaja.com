@@ -9,13 +9,9 @@
     </div>
     <p class="f5 db mv3 mv4-ns tc gray">-- end --</p>
     <div class="tags pv4 ph3 ph0-l">
-            {{ $taxo := "categories" }}
-            {{ range .Params.categories }}
-            {{ $name := . }}
-            {{ with $.Site.GetPage (printf "/%s/%s" $taxo $name) }}
+        {{ range (.GetTerms "categories") }}
         <a class="br-pill ba ph3 pv2 ma2 dib no-underline color-inherit hover-bg-my-color"
-            href="{{ .RelPermalink }}">{{ $name }}</a>
-        {{ end }}
+            href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
         {{ end }}
     </div>
     {{ partial "author" . }}
