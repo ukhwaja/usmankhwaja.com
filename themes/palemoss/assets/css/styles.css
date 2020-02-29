@@ -10,7 +10,7 @@ body {
 }
 
 .my-sans-serif {
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Fredoka One', sans-serif;
 }
 
 .w-fit {
@@ -37,14 +37,6 @@ body {
     border-radius: .125rem;
     white-space: nowrap;
     background-color: #f0f0f0;
-}
-
-.b--my-border-color {
-    border-color: rgba(0, 0, 0, 0.1);
-}
-
-.bg--my-bg-color {
-    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .hover-bg-my-color:hover {
@@ -459,18 +451,6 @@ body {
     .content a.footnote-ref,
     .content a.footnote-backref {
         filter: invert(100%);
-    }
-
-    .b--my-border-color {
-        border-color: rgba(255, 255, 255, 0.1);
-    }
-
-    .bg--my-bg-color {
-        background-color: rgba(255, 255, 255, 0.1);
-    }
-
-    .hover-bg-my-color:hover {
-        background-color: rgba(255, 255, 255, 0.1);
     }
 
     .highlight {

@@ -14,7 +14,9 @@
             href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
         {{ end }}
     </div>
+    <div class="ph3 ph0-ns">
     {{ partial "author" . }}
+    </div>
 </div>
 <script type="application/ld+json">
     {{ partial "breadcrumbs-list" . | safeJS }}

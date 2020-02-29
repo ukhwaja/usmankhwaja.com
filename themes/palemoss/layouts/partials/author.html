@@ -1,8 +1,8 @@
-<div class="flex justify-center ph3 pv3 pv4-m pv5-l bt b--my-border-color">
+<div class="mw6 flex flex-wrap center justify-center ph3 pv3 pv4-m pv5-l ba br3 shadow-4">
     <amp-img width="70" height="70" class="br-100 shrink-0" layout="fixed" src="/logo.webp"></amp-img>
-    <div class="pl4">
-        <h4 class="normal my-sans-serif f3 mv2">{{ .Site.Title }}</h4>
-        <div class="mv2">
+    <div class="pl4-ns">
+        <h4 class="normal tc tl-ns my-sans-serif f3 mv2">{{ .Site.Title }}</h4>
+        <div class="mv2 tc tl-ns">
             {{ replaceRE "</?p>" "" .Site.Home.Content | safeHTML }}
         </div>
     </div>

@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="mw7 center">
     {{ $list := .Data.Pages }}
-    <div class="tc pv3 pv4-m pv5-l bb b--my-border-color">
+    <div class="tc pv3 pv4-m pv5-l">
         <h1 class="normal my-sans-serif f1 mv3">{{ .Data.Term }}</h1>
         {{ $t := .Site.GetPage .Type }}
         <h2 class="f5 normal">
@@ -11,7 +11,7 @@
     </div>
     <div>
         {{ range $index, $value := $list }}
-        <div class="w-80 center pv2 pv4-m pv5-l ph2 ph4-m ph5-l {{ if lt ( add $index 1) (len $list) }}bb b--my-border-color{{ end }}">
+        <div class="w-80 center pv1 pv3-m pv4-l mv3 mv4-ns ph2 ph4-m ph5-l ba br3 shadow-4">
             {{ .Render "li"}}
         </div>
         {{ end }}
