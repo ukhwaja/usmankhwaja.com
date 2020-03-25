@@ -13,7 +13,7 @@ module.exports = {
         'custom-properties': true,
       },
     },
-    'postcss-purgecss': process.env.HUGO_ENV === 'development' ? false : {
+    '@fullhuman/postcss-purgecss': process.env.HUGO_ENV === 'development' ? false : {
       content: [
         'layouts/**/*.html',
         'themes/palemoss/layouts/**/*.html',

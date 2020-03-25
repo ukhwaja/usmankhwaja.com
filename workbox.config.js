@@ -6,6 +6,8 @@ module.exports = {
     '**/*.webp',
   ],
   swDest: 'static/serviceworker.js',
+  sourcemap: false,
+  cleanupOutdatedCaches: true,
   runtimeCaching: [{
     urlPattern: /\.(?:webp|gif)$/,
     handler: 'CacheFirst',
