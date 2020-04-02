@@ -8,6 +8,7 @@ module.exports = {
   swDest: 'static/serviceworker.js',
   sourcemap: false,
   cleanupOutdatedCaches: true,
+  inlineWorkboxRuntime: true,
   runtimeCaching: [{
     urlPattern: /\.(?:webp|gif)$/,
     handler: 'CacheFirst',
