@@ -88,12 +88,6 @@
   name = "Vimeo"
   url = "https://www.vimeo.com/numbfall"
 
-[footprint.mixer]
-  image = "https://img.icons8.com/color/20/3a3a3a/microsoft-mixer.png"
-  title = "CloakSeeker"
-  name = "Mixer"
-  url = "https://mixer.com/CloakSeeker"
-
 [footprint.twitch]
   image = "https://img.icons8.com/color/20/3a3a3a/twitch.png"
   title = "numbfall"
