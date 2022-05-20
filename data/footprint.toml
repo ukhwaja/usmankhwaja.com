@@ -46,24 +46,6 @@
   name = "DeviantArt"
   url = "https://deviantart.com/numbfall"
 
-[footprint.behance]
-  image = "https://img.icons8.com/color/20/3a3a3a/behance.png"
-  title = "numbfall"
-  name = "Behance"
-  url = "https://www.behance.net/numbfall/"
-
-[footprint.dribble]
-  image = "https://img.icons8.com/color/20/3a3a3a/dribbble.png"
-  title = "numbfall"
-  name = "Dribbble"
-  url = "https://dribbble.com/numbfall"
-
-[footprint.flickr]
-  image = "https://img.icons8.com/color/20/3a3a3a/flickr.png"
-  title = "numbfall"
-  name = "Flickr"
-  url = "https://www.flickr.com/photos/numbfall"
-
 [footprint.codepen]
   image = "https://img.icons8.com/color/20/3a3a3a/codepen.png"
   title = "numbfall"
@@ -75,33 +57,3 @@
   title = "numbfall"
   name = "Reddit"
   url = "https://www.reddit.com/user/numbfall"
-
-[footprint.youtube]
-  image = "https://img.icons8.com/color/20/3a3a3a/youtube-play.png"
-  title = "numbfall"
-  name = "YouTube"
-  url = "https://www.youtube.com/user/numbfall"
-
-[footprint.vimeo]
-  image = "https://img.icons8.com/color/20/3a3a3a/vimeo.png"
-  title = "numbfall"
-  name = "Vimeo"
-  url = "https://www.vimeo.com/numbfall"
-
-[footprint.twitch]
-  image = "https://img.icons8.com/color/20/3a3a3a/twitch.png"
-  title = "numbfall"
-  name = "Twitch"
-  url = "https://www.twitch.tv/numbfall"
-
-[footprint.vk]
-  image = "https://img.icons8.com/color/20/3a3a3a/vk-com.png"
-  title = "numbfall"
-  name = "VK"
-  url = "https://vk.com/numbfall"
-
-[footprint.news]
-  image = "https://img.icons8.com/color/20/3a3a3a/y-combinator.png"
-  title = "numbfall"
-  name = "Hacker News"
-  url = "https://news.ycombinator.com/user?id=numbfall"
