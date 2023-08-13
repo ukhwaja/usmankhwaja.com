@@ -7,17 +7,17 @@
     NODE_VERSION = "16.15.0"
     YARN_VERSION = "1.22.19"
     
-[[redirects]]
-    from = "https://usmankhwaja.netlify.com/*"
-    to = "https://usmankhwaja.com/:splat"
-    status = 301
-    force = true
+# [[redirects]]
+#     from = "https://usmankhwaja.netlify.com/*"
+#     to = "https://usmankhwaja.com/:splat"
+#     status = 301
+#     force = true
 
-[[redirects]]
-    from = "https://usmankhwaja.netlify.app/*"
-    to = "https://usmankhwaja.com/:splat"
-    status = 301
-    force = true
+# [[redirects]]
+#     from = "https://usmankhwaja.netlify.app/*"
+#     to = "https://usmankhwaja.com/:splat"
+#     status = 301
+#     force = true
 
 [[headers]]
     for = "/*"
