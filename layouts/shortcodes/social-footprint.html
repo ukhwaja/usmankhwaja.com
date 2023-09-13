@@ -1,5 +1,5 @@
 <table class="code f6 collapse">
-    {{ range .Site.Data.footprint.footprint }}
+    {{ range sort .Site.Data.footprint.footprint "title" "desc" }}
     <tr>
     <td class="pv1 ph2">
     <span
