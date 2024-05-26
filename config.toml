@@ -17,9 +17,6 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
 [taxonomies]
   category = "categories"
 
-[author]
-  name = "Usman Khwaja"
-
 [params]
   description = "Front end engineer & Jamstack developer"
   images = ["https://pbs.twimg.com/profile_images/955102212539191301/-FeTpTi6_400x400.jpg"]

@@ -4,5 +4,5 @@ date: {{ .Date }}
 categories: [""]
 tags: [""]
 keywords: [""]
-image: ""
+image: ["https://raw.githubusercontent.com/ampproject/docs/master/assets/img/logo-og-image.jpg"]
 ---
