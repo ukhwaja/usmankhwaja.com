@@ -8,8 +8,8 @@
     "start": "HUGO_ENV=development && hugo server",
     "build-sw": "yarn workbox generateSW workbox.config.js"
   },
-  "author": "numbfall",
-  "repository": "git@github.com:numbfall/usmankhwaja.com.git",
+  "author": "Usman Khwaja",
+  "repository": "git@github.com:ukhwaja/usmankhwaja.com.git",
   "license": "MIT",
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^6.0.0",
@@ -17,8 +17,9 @@
     "postcss-combine-duplicated-selectors": "^10.0.3",
     "postcss-discard-comments": "^7.0.0",
     "postcss-import": "^16.1.0",
-    "postcss-preset-env": "^9.5.14",
+    "postcss-preset-env": "^10.0.2",
     "tachyons": "^4.12.0",
     "workbox-cli": "^7.1.0"
-  }
+  },
+  "packageManager": "yarn@4.2.2+sha512.c44e283c54e02de9d1da8687025b030078c1b9648d2895a65aab8e64225bfb7becba87e1809fc0b4b6778bbd47a1e2ab6ac647de4c5e383a53a7c17db6c3ff4b"
 }
