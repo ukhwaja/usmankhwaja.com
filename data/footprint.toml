@@ -1,14 +1,8 @@
-[footprint.twitter]
-  image = "https://img.icons8.com/color/20/3a3a3a/twitter.png"
-  title = "numbfall"
-  name = "Twitter"
-  url = "https://twitter.com/numbfall"
-
 [footprint.facebook]
   image = "https://img.icons8.com/color/20/3a3a3a/facebook.png"
-  title = "numbfall"
+  title = "u.khwaja"
   name = "Facebook"
-  url = "https://facebook.com/numbfall"
+  url = "https://facebook.com/u.khwaja"
 
 [footprint.instagram]
   image = "https://img.icons8.com/color/20/3a3a3a/instagram.png"
@@ -27,51 +21,3 @@
   title = "ukhwaja"
   name = "Github"
   url = "https://github.com/ukhwaja"
-
-[footprint.xbox]
-  image = "https://img.icons8.com/color/20/3a3a3a/xbox.png"
-  title = "CloakSeeker"
-  name = "Xbox"
-  url = "http://live.xbox.com/en-US/Profile?gamertag=CloakSeeker"
-
-[footprint.steam]
-  image = "https://img.icons8.com/color/20/3a3a3a/steam.png"
-  title = "numbfall"
-  name = "Steam"
-  url = "https://steamcommunity.com/id/numbfall"
-
-  [footprint.discord]
-  image = "https://img.icons8.com/color/20/3a3a3a/discord.png"
-  title = "cloak_seeker"
-  name = "Discord"
-  url = "https://discordapp.com/users/cloak_seeker"
-
-  [footprint.ubisoft]
-  image = "https://img.icons8.com/color/20/3a3a3a/ubisoft.png"
-  title = "CloakedSeeker"
-  name = "Ubisoft"
-  url = "https://ubisoftconnect.com/en-US/profile/CloakedSeeker"
-
-  [footprint.epic]
-  image = "https://img.icons8.com/color/20/3a3a3a/epic-games.png"
-  title = "CloakedSeeker"
-  name = "Epic"
-  url = "https://store.epicgames.com/u/63ba0652494b4b6095ab5b2bc6912276"
-
-[footprint.deviantart]
-  image = "https://img.icons8.com/color/20/3a3a3a/devianart.png"
-  title = "numbfall"
-  name = "DeviantArt"
-  url = "https://deviantart.com/numbfall"
-
-[footprint.codepen]
-  image = "https://img.icons8.com/color/20/3a3a3a/codepen.png"
-  title = "numbfall"
-  name = "CodePen"
-  url = "https://codepen.io/numbfall/#"
-
-[footprint.reddit]
-  image = "https://img.icons8.com/color/20/3a3a3a/reddit.png"
-  title = "numbfall"
-  name = "Reddit"
-  url = "https://www.reddit.com/user/numbfall"
