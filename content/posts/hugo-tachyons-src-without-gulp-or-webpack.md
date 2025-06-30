@@ -13,7 +13,7 @@ However once in a while it can be very useful to get the src and build css from 
 Tachyons can be built with [PostCSS](https://postcss.org). And Hugo comes with PostCSS processing Pipe pre-built. Essentially all you need to do is add the following to the `head.html` 
 
 ```html
-{{ $style := resources.Get "css/tachyons.css" | resources.PostCSS }}
+{{ $style := resources.Get "css/tachyons.css" | css.PostCSS }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
 ```
 

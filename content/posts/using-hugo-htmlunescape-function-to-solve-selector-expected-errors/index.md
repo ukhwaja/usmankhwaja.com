@@ -14,7 +14,7 @@ Using the `htmlUnescape` function to render the style tag and then piping it thr
 
 ```html
 {{ htmlUnescape "&lt;style amp-custom&gt;" | safeHTML }}
-    {{ with resources.Get "css/tachyons.css" | resources.PostCSS }}
+    {{ with resources.Get "css/tachyons.css" | css.PostCSS }}
     {{ .Content | safeHTML }}
     {{ end }}
 {{ htmlUnescape "&lt;/style&gt;" | safeHTML }}

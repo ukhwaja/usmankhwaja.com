@@ -19,7 +19,8 @@
     <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
 
     {{ htmlUnescape "&lt;style amp-custom&gt;" | safeHTML }}
-    {{ with resources.Get "css/styles.css" | resources.PostCSS | resources.Minify}}
+    {{ $style := resources.Get "css/styles.css" | css.PostCSS }}
+    {{ with $style | resources.Minify }}
     {{ .Content | safeHTML }}
     {{ end }}
     {{ htmlUnescape "&lt;/style&gt;" | safeHTML }}
