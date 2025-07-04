@@ -2,6 +2,8 @@ module.exports = {
   globDirectory: './public',
   globPatterns: [
     '*.html',
+    '**/*.js',
+    '**/*.css',
     '**/index.html',
     '**/*.webp',
   ],
