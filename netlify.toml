@@ -5,6 +5,7 @@
 [build.environment]
     HUGO_VERSION = "0.147.9"
     NODE_VERSION = "24.3.0"
+    YARN_VERSION = "4.9.2"
     
 # [[redirects]]
 #     from = "https://usmankhwaja.netlify.com/*"
