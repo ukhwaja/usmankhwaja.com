@@ -23,14 +23,7 @@ To do it, first get the required script in the head.
 </script>
 ```
 
-Create a simple `<textarea>` element. Bind values to a variable such as `maxlength` attribute below. 
-
-```html
-<textarea maxlength="20">
-</textarea>
-```
-
-Use the `on` attribute to save the character count of the text area to a variable. We will use `input-throttled` because we want the value to update on every key input.
+Create a simple `<textarea>` element. Bind values to a variable such as `maxlength` attribute. Use the `on` attribute to save the character count of the text area to a variable. We will use `input-throttled` because we want the value to update on every key input.
 
 ```html
 <textarea maxlength="20"
@@ -52,7 +45,7 @@ Now `length` is saved. Let's create a macro to calculate the remaining character
 
 Finally, we get to display the result of the expression on input. Call the `textCounter` macro to get the value of `[text]` which is the `innerText` of the DOM element.
 
-```html
+```ng2
 <span hidden [hidden]="length < 1" 
     [text]="textCounter(length, maxlength)">
 </span>

@@ -3,7 +3,7 @@
     command = "hugo"
 
 [build.environment]
-    HUGO_VERSION = "0.147.9"
+    HUGO_VERSION = "0.148.1"
     NODE_VERSION = "24.3.0"
     
 # [[redirects]]

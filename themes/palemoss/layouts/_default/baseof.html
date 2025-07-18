@@ -27,7 +27,7 @@
         {{ partial "search-gallery" . | safeJS }}
     </script>
     {{ end }}
-    {{ if ne (getenv "HUGO_ENV") "development" }}
+    {{ if hugo.IsProduction }}
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/serviceworker.js');

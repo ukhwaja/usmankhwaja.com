@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "build": "rm -rf public && hugo && pnpm workbox generateSW workbox.config.js",
-    "start": "HUGO_ENV=development && hugo server --buildDrafts --disableFastRender",
+    "start": "hugo server --buildDrafts",
     "build-sw": "pnpm workbox generateSW workbox.config.js"
   },
   "author": "Usman Khwaja",
