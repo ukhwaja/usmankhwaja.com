@@ -163,6 +163,7 @@
       "transition-all",
       "transition-colors",
       "transition-shadow",
+      "underline",
       "w-4"
     ],
     "ids": [

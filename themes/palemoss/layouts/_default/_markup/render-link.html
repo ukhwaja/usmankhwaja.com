@@ -1,2 +1,7 @@
-<a href="{{ .Destination | safeURL }}" 
-{{ if strings.HasPrefix .Destination "http" }}target="_blank" rel="noreferrer nofollow"{{ end }}>{{ .Text }}</a>
+{{- $u := urls.Parse .Destination -}}
+<a href="{{ .Destination | safeURL }}"
+  {{- with .Title }} title="{{ . }}"{{ end -}}
+  {{- if $u.IsAbs }} target="_blank" rel="external"{{ end -}}
+class="underline">
+  {{- with .Text }}{{ . }}{{ end -}}
+</a>
