@@ -21,9 +21,9 @@
 [[headers]]
     for = "/*"
     [headers.values]
-        Link = "<https://cdn.ampproject.org/v0.js>; rel=preload; as=script, <https://fonts.gstatic.com/>; rel=preconnect"
+        Link = "<https://fonts.gstatic.com/>; rel=preconnect"
 
 [[headers]]
     for = "/digital-footprint"
     [headers.values]
-        Link = "<https://cdn.ampproject.org/v0.js>; rel=preload; as=script, <https://fonts.gstatic.com/>; rel=preconnect, <https://img.icons8.com/>; rel=preconnect"
+        Link = "<https://fonts.gstatic.com/>; rel=preconnect, <https://img.icons8.com/>; rel=preconnect"

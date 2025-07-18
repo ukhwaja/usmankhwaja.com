@@ -8,6 +8,11 @@
   --font-fredoka: 'Fredoka One';
 }
 
+/* .prose p code::before,
+.prose p code::after {
+    content: "" !important;
+} */
+
 /* Syntax Highlighting - Chroma GitHub Style */
 /* Background */
 .bg {
@@ -844,19 +849,6 @@
   }
 }
 
-/* Custom prose styling to use our fonts */
-.prose {
-  font-family: var(--font-fjord);
-}
-
-.prose h1,
-.prose h2,
-.prose h3,
-.prose h4,
-.prose h5,
-.prose h6 {
-  font-family: var(--font-fredoka);
-}
 
 /* Dark mode prose styling */
 @media (prefers-color-scheme: dark) {

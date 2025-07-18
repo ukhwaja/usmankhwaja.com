@@ -8,7 +8,7 @@ enableGitInfo = true
 disableHugoGeneratorInject = true
 pluralizelisttitles = false
 theme = "palemoss"
-summaryLength = 20
+summaryLength = 1
 disableKinds = ["section"]
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License."
 
@@ -20,6 +20,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
     codeFences = true
     guessSyntax = false
     noclasses = false
+
 
 [taxonomies]
   category = "categories"

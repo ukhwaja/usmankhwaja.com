@@ -1,4 +1,0 @@
-{{ $size := split .Title "x" }}
-<amp-img alt="{{ .Text }}" src="{{ .Destination }}" width="{{ index $size 0 }}" height="{{ index $size 1 }}"
-    layout="responsive">
-</amp-img>

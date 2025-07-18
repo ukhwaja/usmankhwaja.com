@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{.Site.LanguageCode}}" amp>
+<html lang="{{.Site.LanguageCode}}">
 
 {{ partial "head" . }}
 
@@ -28,8 +28,11 @@
     </script>
     {{ end }}
     {{ if ne (getenv "HUGO_ENV") "development" }}
-    <amp-install-serviceworker src="/serviceworker.js" layout="nodisplay">
-    </amp-install-serviceworker>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/serviceworker.js');
+        }
+    </script>
     {{ end }}
 </body>
 
