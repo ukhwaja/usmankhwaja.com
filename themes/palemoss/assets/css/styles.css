@@ -8,10 +8,15 @@
   --font-fredoka: 'Fredoka One';
 }
 
-/* .prose p code::before,
-.prose p code::after {
-    content: "" !important;
-} */
+@layer plugin {
+  :where(.prose) p code {
+    &::before,
+    &::after {
+      content: none;
+    }
+    @apply whitespace-nowrap;
+  }
+}
 
 /* Syntax Highlighting - Chroma GitHub Style */
 /* Background */
@@ -461,6 +466,12 @@
   /* Error */
   .chroma .err {
     color: #f85149
+  }
+
+  .chroma .nx,
+  .chroma .na,
+  .chroma .p {
+    color: #fefefe
   }
 
   /* LineHighlight */
