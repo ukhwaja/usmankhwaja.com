@@ -3,12 +3,12 @@
 
 {{ partial "head" . }}
 
-<body class="bg-gray-50 text-gray-900 font-fjord leading-relaxed">
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 font-fjord leading-relaxed">
     {{ if not (eq .Kind "home") }}
-    <nav class="bg-white shadow-sm border-b border-gray-200">
+    <nav class="bg-white dark:bg-gray-800 shadow-sm border-b border-gray-200 dark:border-gray-700">
         <div class="max-w-4xl mx-auto px-4 py-4">
             <a href="/"
-                class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium transition-colors duration-200">
+                class="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-medium transition-colors duration-200">
                 <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>

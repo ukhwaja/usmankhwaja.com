@@ -14,12 +14,12 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
 
 [markup]
   [markup.highlight]
-    style = 'github'
-    lineNos = true
+    lineNos = false
     lineNumbersInTable = false
     tabWidth = 2
     codeFences = true
-    guessSyntax = true
+    guessSyntax = false
+    noclasses = false
 
 [taxonomies]
   category = "categories"
