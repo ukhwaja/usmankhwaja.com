@@ -1,8 +1,9 @@
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     {{ if and (eq .Type "blog") (eq .Kind "page") }}{{ template "_internal/schema.html" . }}{{ end }}
-    <meta name="description" content="{{ if and (eq .Section `posts`) (not .IsNode) }}Post &mdash; {{ .Params.title }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <meta name="description"
+        content="{{ if and (eq .Section `posts`) (not .IsNode) }}Post &mdash; {{ .Params.title }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <meta name="author" content="{{ .Site.Title }}">
     <meta name="keywords" content="{{ delimit .Site.Params.keywords `, `}}">
     {{ hugo.Generator }}
@@ -14,13 +15,18 @@
     <link rel="preconnect" href="https://img.icons8.com/" crossorigin>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     {{ if ne (getenv "HUGO_ENV") "development" }}
-    <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
+    <script async custom-element="amp-install-serviceworker"
+        src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
     {{ end }}
     <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
 
-    {{ $style := resources.Get "css/styles.css" | css.PostCSS }}
-    {{ $css := $style | minify | resources.PostProcess }}
-    <link rel="stylesheet" href="{{ $css.RelPermalink }}" />
+    {{ htmlUnescape "&lt;style amp-custom&gt;" | safeHTML }}
+    {{ $opts := dict "minify" true }}
+    {{ $style := resources.Get "css/styles.css" | css.TailwindCSS $opts }}
+    {{ with $style | resources.Minify }}
+    {{ .Content | safeHTML }}
+    {{ end }}
+    {{ htmlUnescape "&lt;/style&gt;" | safeHTML }}
 
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Fjord+One&display=swap" rel="stylesheet">
 
@@ -98,13 +104,14 @@
 
     <title>
         {{ if not .IsHome }}
-            {{ .Title }}
-            &mdash;
+        {{ .Title }}
+        &mdash;
         {{ end }}
         {{ .Site.Title }}
     </title>
 
     {{ with .OutputFormats.Get "rss" -}}
-    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ printf `
+    <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
 </head>

@@ -3,8 +3,6 @@ languageCode = "en"
 DefaultContentLanguage = "en"
 title = "Usman Khwaja"
 enableEmoji = true
-pygmentsCodeFences = true
-pygmentsUseClasses = true
 enableRobotsTXT = true
 enableGitInfo = true
 disableHugoGeneratorInject = true
@@ -16,7 +14,12 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
 
 [markup]
   [markup.highlight]
-    style = 'monokai'
+    style = 'github'
+    lineNos = true
+    lineNumbersInTable = false
+    tabWidth = 2
+    codeFences = true
+    guessSyntax = true
 
 [taxonomies]
   category = "categories"
@@ -36,6 +39,12 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
 [build]
   [build.buildStats]
     enable = true
+  [[build.cachebusters]]
+    source = 'hugo_stats.json'
+    target = 'css'
+  [[build.cachebusters]]
+    source = '(postcss|tailwind)\.config\.js'
+    target = 'css'
 
 [module]
   [module.hugoVersion]

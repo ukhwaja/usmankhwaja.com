@@ -1,15 +1,13 @@
-<table class="code f6 collapse">
+<table>
     {{ range sort .Site.Data.footprint.footprint "title" "desc" }}
     <tr>
-    <td class="pv1 ph2">
-    <span
-        class="flex items-center">
-        <amp-img alt="{{substr .name 0 2}}" noloading class="bg-transparent color-invert" width="20" height="20" layout="fixed" src="{{ .image }}">
-        </amp-img>
-        <strong class="ph2">{{ .name }}</strong>
+    <td>
+    <span>
+        <amp-img alt="{{substr .name 0 2}}" noloading src="{{ .image }}" width="20" height="20" layout="fixed"></amp-img>
+        <strong>{{ .name }}</strong>
         </span>
-    </td><td class="pv1 ph2">
-        <a rel="nofollow noreferrer" class="color-inherit no-underline underline-hover link" target="_blank" href="{{ .url }}">
+    </td><td>
+        <a rel="nofollow noreferrer" target="_blank" href="{{ .url }}">
             {{ .title }}</a>
     </td>
     </tr>

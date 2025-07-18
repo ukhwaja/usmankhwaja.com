@@ -1,2 +1,2 @@
-<a class="color-inherit nowrap underline link" href="{{ .Destination | safeURL }}" 
+<a href="{{ .Destination | safeURL }}" 
 {{ if strings.HasPrefix .Destination "http" }}target="_blank" rel="noreferrer nofollow"{{ end }}>{{ .Text }}</a>

@@ -3,7 +3,6 @@ module.exports = {
   globPatterns: [
     '*.html',
     '**/*.js',
-    '**/*.css',
     '**/index.html',
     '**/*.webp',
   ],

@@ -3,13 +3,22 @@
 
 {{ partial "head" . }}
 
-<body class="my-serif">
+<body class="bg-gray-50 text-gray-900 font-fjord leading-relaxed">
     {{ if not (eq .Kind "home") }}
-    <nav>
-        <a class="f6 br-pill ba pv3 ph4 ma3 dib color-inherit hover-bg-my-color no-underline" href="/">&larr; Home</a>
+    <nav class="bg-white shadow-sm border-b border-gray-200">
+        <div class="max-w-4xl mx-auto px-4 py-4">
+            <a href="/"
+                class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium transition-colors duration-200">
+                <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                </svg>
+                Home
+            </a>
+        </div>
     </nav>
     {{ end }}
-    <div id="content" class="">
+    <div id="content" class="min-h-screen">
         {{ block "main" . }}{{ end }}
     </div>
     {{ if not (eq .Kind "404") }}
@@ -18,8 +27,10 @@
         {{ partial "search-gallery" . | safeJS }}
     </script>
     {{ end }}
+    {{ if ne (getenv "HUGO_ENV") "development" }}
     <amp-install-serviceworker src="/serviceworker.js" layout="nodisplay">
     </amp-install-serviceworker>
+    {{ end }}
 </body>
 
 </html>

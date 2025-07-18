@@ -1,23 +1,26 @@
 {{ define "main" }}
-<div class="mw7 center">
-    <div class="pv3 pv4-m pv5-l ph3 ph0-l">
-        <h1 class="normal f2 lh-title my-sans-serif mv3">{{ .Title }}</h1>
-        <span class="normal lh-solid">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
-    </div>
-    <div class="content lh-copy mt4 mt0-ns ph3 ph0-l">
+<article class="max-w-4xl mx-auto px-4 py-8">
+    <header class="mb-12 text-center">
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 leading-tight">{{ .Title }}</h1>
+        <div class="flex items-center justify-center text-gray-500 text-sm">
+            <time class="font-medium">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+        </div>
+    </header>
+    <div class="prose prose-lg prose-gray max-w-none mb-12">
         {{ .Content }}
     </div>
-    <p class="f5 db mv3 mv4-ns tc gray">-- end --</p>
-    <div class="tags pv4 ph3 ph0-l">
+    <div class="border-t border-gray-200 pt-8 mb-8">
+        <p class="text-center text-gray-500 font-medium">-- end --</p>
+    </div>
+    <div class="flex flex-wrap gap-2 mb-8">
         {{ range (.GetTerms "categories") }}
-        <a class="br-pill ba ph3 pv2 ma2 dib no-underline color-inherit hover-bg-my-color"
-            href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        <a href="{{ .RelPermalink }}" class="inline-block bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium hover:bg-blue-200 transition-colors duration-200">{{ .LinkTitle }}</a>
         {{ end }}
     </div>
-    <div class="ph3 ph0-ns">
-    {{ partial "author" . }}
+    <div class="bg-gray-50 rounded-lg p-6">
+        {{ partial "author" . }}
     </div>
-</div>
+</article>
 <script type="application/ld+json">
     {{ partial "breadcrumbs-list" . | safeJS }}
 </script>
