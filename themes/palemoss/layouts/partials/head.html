@@ -18,9 +18,12 @@
     {{ end }}
     <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
 
+    {{ htmlUnescape "&lt;style amp-custom&gt;" | safeHTML }}
     {{ $style := resources.Get "css/styles.css" | css.PostCSS }}
-    {{ $css := $style | minify | resources.PostProcess }}
-    <link rel="stylesheet" href="{{ $css.RelPermalink }}" />
+    {{ with $style | resources.Minify }}
+    {{ .Content | safeHTML }}
+    {{ end }}
+    {{ htmlUnescape "&lt;/style&gt;" | safeHTML }}
 
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Fjord+One&display=swap" rel="stylesheet">
 
