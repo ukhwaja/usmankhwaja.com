@@ -1,8 +1,8 @@
 {{ define "main" }}
 <article class="max-w-4xl mx-auto px-4 py-8">
     <header class="mb-12 text-center">
-        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 leading-tight">{{ .Title }}</h1>
-        <div class="flex items-center justify-center text-gray-500 text-sm">
+        <h1 class="font-fredoka text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-4 leading-tight">{{ .Title }}</h1>
+        <div class="font-fjord flex items-center justify-center text-gray-500 text-sm">
             <time class="font-medium">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
         </div>
     </header>
@@ -10,7 +10,7 @@
         {{ .Content }}
     </div>
     <div class="border-t border-gray-200 pt-8 mb-8">
-        <p class="text-center text-gray-500 font-medium">-- end --</p>
+        <p class="font-fjord text-center text-gray-500 font-medium">-- end --</p>
     </div>
     <div class="flex flex-wrap gap-2 mb-8">
         {{ range (.GetTerms "categories") }}

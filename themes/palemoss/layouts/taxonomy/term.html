@@ -1,17 +1,23 @@
 {{ define "main" }}
-<div>
+<div class="max-w-4xl mx-auto px-4 py-8">
     {{ $list := .Data.Pages }}
-    <div>
-        <h1>{{ .Data.Term }}</h1>
+    <div class="text-center mb-12">
+        <h1 class="font-fredoka text-3xl md:text-4xl text-gray-900 mb-4">{{ .Data.Term }}</h1>
         {{ $t := .Site.GetPage .Type }}
-        <h2>
-        <span>{{ len $list }} {{ if gt (len $list) 1 }}{{ "post" | pluralize }}{{ else }}post{{ end }} in </span>
-        {{ $t.Name | lower | singularize }}</span> of <a title="{{ $t.Name }}" href="{{ $t.Permalink }}">{{ $t.Name }}</a>
-        </h2>
+        <div class="font-fjord flex items-center justify-center space-x-2 text-gray-600">
+        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
+            {{ len $list }} {{ if gt (len $list) 1 }}{{ "post" | pluralize }}{{ else }}post{{ end }}
+        </span>
+        <span>in</span>
+        <span class="font-medium">{{ $t.Name | lower | singularize }}</span>
+        <span>of</span>
+        <a title="{{ $t.Name }}" href="{{ $t.Permalink }}"
+            class="text-blue-600 hover:text-blue-800 font-medium transition-colors duration-200">{{ $t.Name }}</a>
+        </div>
     </div>
-    <div>
+    <div class="space-y-8">
         {{ range $index, $value := $list }}
-        <div>
+        <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
             {{ .Render "li"}}
         </div>
         {{ end }}

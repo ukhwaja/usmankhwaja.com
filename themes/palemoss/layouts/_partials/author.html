@@ -1,8 +1,8 @@
 <div class="flex items-center space-x-4">
     <amp-img width="70" height="70" layout="fixed" src="/logo.webp" class="rounded-full shadow-md"></amp-img>
     <div>
-        <h4 class="text-lg font-bold text-gray-900 mb-1">{{ .Site.Title }}</h4>
-        <div class="text-gray-600 leading-relaxed">
+        <h4 class="font-fredoka text-lg text-gray-900 mb-1">{{ .Site.Title }}</h4>
+        <div class="font-fjord text-gray-600 leading-relaxed">
             {{ replaceRE "</?p>" "" .Site.Home.Content | safeHTML }}
         </div>
     </div>

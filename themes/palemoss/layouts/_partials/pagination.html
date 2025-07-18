@@ -2,7 +2,7 @@
 <div class="flex items-center justify-between bg-white rounded-lg shadow-md p-6">
     <div>
     {{ if .Paginator.HasPrev }}
-    <a title="Previous Page" href="{{ .Paginator.Prev.URL }}" class="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200 font-medium">
+    <a title="Previous Page" href="{{ .Paginator.Prev.URL }}" class="font-fjord inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200 font-medium">
         <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
         </svg>
@@ -10,12 +10,12 @@
     </a>
     {{ end }}
     </div>
-    <div class="text-gray-600 font-medium">
+    <div class="font-fjord text-gray-600 font-medium">
     Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}
     </div>
     <div>
     {{ if .Paginator.HasNext }}
-    <a title="Next Page" href="{{ .Paginator.Next.URL }}" class="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200 font-medium">
+    <a title="Next Page" href="{{ .Paginator.Next.URL }}" class="font-fjord inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200 font-medium">
         Older
         <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7-7 7"></path>
