@@ -1,8 +1,8 @@
 module.exports = {
   globDirectory: './public',
   globPatterns: [
-    '*.html',
-    '**/index.html',
+    // '*.html',
+    // '**/index.html',
     '**/*.webp',
   ],
   swDest: 'static/serviceworker.js',

@@ -9,17 +9,22 @@ draft: true
 
 By popular demand and influence of [uses.tech](https://uses.tech/), here is my /uses list.
 
-- Surface Book 2:
-    - OS: Arch Linux
-    - Host: Windows Subsystem for Linux
-    - Shell: zsh
-    - CPU: Intel(R) Core(TM) i7-8650U (8) @ 2.11 GHz
-    - GPU 1: NVIDIA GeForce GTX 1050 (1.93 GiB) [Discrete]
-    - GPU 2: Intel(R) UHD Graphics 620 (128.00 MiB) [Integrated]
-    - Memory: 7.67 GiB 
-    - IDE: VS Code
-    - Browser: Firefox Developer Edition
-    - Graphics: Affinity[^affinity] Photo, Designer, and Publisher.
+### Hardware
+- Laptop: Surface Book 2 13.5" 8GB/256GB
+    - CPU: Intel Core i7-8650U (2.11 GHz)
+    - GPU 0: Intel UHD Graphics 620 (128 MiB) [Integrated]
+    - GPU 1: NVIDIA GeForce GTX 1050 (2 GiB) [Discrete]
+
+- Phone: ASUS Zenfone 10 8GB/128GB
+
+
+### Sotfware
+- OS: Arch Linux
+- Host: Windows 11, Windows Subsystem for Linux
+- Shell: zsh
+- Editor: VS Code
+- Browsers: Firefox Developer Edition, Microsoft Edge
+- Graphics Suite: Affinity[^affinity] Photo, Designer, and Publisher.
 
 
 [^affinity]: Affinity by [Serif](https://affinity.serif.com/en-us/) is an amazing, **affordable** alternative to the Adobe suite.

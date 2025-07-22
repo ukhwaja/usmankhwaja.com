@@ -29,17 +29,17 @@
       "pre",
       "script",
       "span",
-      "strong",
       "svg",
       "table",
+      "tbody",
       "td",
       "textarea",
       "time",
       "title",
-      "tr",
-      "ul"
+      "tr"
     ],
     "classes": [
+      "align-middle",
       "bg-blue-100",
       "bg-blue-600",
       "bg-gray-50",
@@ -48,7 +48,6 @@
       "block",
       "border",
       "border-b",
-      "border-collapse",
       "border-gray-200",
       "border-gray-300",
       "border-t",
@@ -134,7 +133,6 @@
       "overflow-hidden",
       "p-2",
       "p-6",
-      "pr-4",
       "prose",
       "prose-gray",
       "prose-lg",
@@ -186,6 +184,7 @@
       "underline",
       "w-4",
       "w-[3rem]",
+      "w-auto",
       "w-full"
     ],
     "ids": [

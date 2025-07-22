@@ -15,7 +15,7 @@
 }
 
 @layer plugin {
-  :where(.prose) p code {
+  :where(.prose) code {
     &::before,
     &::after {
       content: none;

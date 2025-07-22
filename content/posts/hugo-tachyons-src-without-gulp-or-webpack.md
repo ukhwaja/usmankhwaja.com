@@ -43,4 +43,4 @@ module.exports = {
 Some known issues..
 
 1. Hugo Pipes for css only work if the css is in the `assets` folder.
-+ The `tachyons.css` has all the imports linked as relative paths like `'./_styles'`. Remove all the `'./'` from all the paths or PostCSS will give a file-not-found error.
+2. The `tachyons.css` has all the imports linked as relative paths like `./_styles`. Remove all the `./` from all the paths or PostCSS will give a file-not-found error.
