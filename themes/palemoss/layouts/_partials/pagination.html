@@ -1,6 +1,5 @@
 {{ if gt .Paginator.TotalPages 1 }}
-<div class="flex items-center justify-between p-6">
-    <div>
+<nav class="flex items-center justify-between p-6">
     {{ if .Paginator.HasPrev }}
     <a title="Previous Page" href="{{ .Paginator.Prev.URL }}" class="font-fjord inline-flex items-center px-4 py-2 bg-blue-600 dark:bg-blue-700 text-white rounded-lg hover:bg-blue-700 dark:hover:bg-blue-600 transition-colors duration-200 font-medium">
         <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -8,12 +7,12 @@
         </svg>
         Newer
     </a>
+    {{ else }}
+    <span></span>
     {{ end }}
-    </div>
-    <div class="font-fjord text-gray-600 dark:text-gray-400 font-medium">
-    Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}
-    </div>
-    <div>
+    <span class="font-fjord text-gray-600 dark:text-gray-400 font-medium">
+        Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}
+    </span>
     {{ if .Paginator.HasNext }}
     <a title="Next Page" href="{{ .Paginator.Next.URL }}" class="font-fjord inline-flex items-center px-4 py-2 bg-blue-600 dark:bg-blue-700 text-white rounded-lg hover:bg-blue-700 dark:hover:bg-blue-600 transition-colors duration-200 font-medium">
         Older
@@ -21,7 +20,8 @@
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7-7 7"></path>
         </svg>
     </a>
+    {{ else }}
+    <span></span>
     {{ end }}
-    </div>
-</div>
+</nav>
 {{ end }}

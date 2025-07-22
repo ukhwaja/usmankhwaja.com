@@ -9,17 +9,14 @@
     <div class="prose prose-lg prose-gray dark:prose-invert max-w-none mb-12">
         {{ .Content }}
     </div>
-    <div class="border-t border-gray-200 dark:border-gray-700 pt-8 mb-8">
-        <p class="font-fjord text-center text-gray-500 dark:text-gray-400 font-medium">-- end --</p>
-    </div>
+    <hr class="border-gray-200 dark:border-gray-700 my-8">
+    <p class="font-fjord text-center text-gray-500 dark:text-gray-400 font-medium mb-8">-- end --</p>
     <div class="flex flex-wrap gap-2 mb-8">
         {{ range (.GetTerms "categories") }}
         <a href="{{ .RelPermalink }}" class="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-3 py-1 rounded-full text-sm font-medium hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors duration-200">{{ .LinkTitle }}</a>
         {{ end }}
     </div>
-    <div class="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
-        {{ partial "author" . }}
-    </div>
+    {{ partial "author" . }}
 </article>
 <script type="application/ld+json">
     {{ partial "breadcrumbs-list" . | safeJS }}
