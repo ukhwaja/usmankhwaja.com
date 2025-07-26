@@ -1,4 +1,4 @@
 ---
 title: Usman Khwaja
 ---
-Front end engineer & [Jamstack](https://jamstack.org "Jamstack") developer
+Business analyst, IT test engineer, & [Jamstack](https://jamstack.org "Jamstack") developer

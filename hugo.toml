@@ -29,7 +29,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
   minifyOutput = true
 
 [params]
-  description = "Front end engineer & Jamstack developer"
+  description = "Business analyst & Jamstack developer"
   images = ["https://pbs.twimg.com/profile_images/955102212539191301/-FeTpTi6_400x400.jpg"]
   keywords = ["web", "developer", "jamstack", "font-end", "websites", "blog", "personal", "portfolio", "coding", "software", "frontend"]
   github = "ukhwaja"
