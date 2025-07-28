@@ -20,7 +20,7 @@
     &::after {
       content: none;
     }
-    @apply whitespace-nowrap;
+    /* @apply whitespace-nowrap; */
   }
 }
 
