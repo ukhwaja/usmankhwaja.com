@@ -32,8 +32,6 @@
       "pre",
       "script",
       "span",
-      "strong",
-      "sup",
       "svg",
       "table",
       "tbody",
@@ -41,8 +39,7 @@
       "textarea",
       "time",
       "title",
-      "tr",
-      "ul"
+      "tr"
     ],
     "classes": [
       "align-middle",
@@ -87,9 +84,6 @@
       "font-fredoka",
       "font-medium",
       "font-semibold",
-      "footnote-backref",
-      "footnote-ref",
-      "footnotes",
       "gap-2",
       "gap-6",
       "gap-8",
@@ -195,10 +189,6 @@
     ],
     "ids": [
       "content",
-      "fn:1",
-      "fnref:1",
-      "hardware",
-      "sotfware",
       "textCounter",
       "textinput"
     ]
