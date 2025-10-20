@@ -2,9 +2,9 @@
 <div class="max-w-4xl mx-auto px-4 py-8">
     {{ $list := .Data.Pages }}
     <header class="text-center mb-12">
-        <h1 class="font-fredoka text-3xl md:text-4xl text-gray-900 dark:text-gray-100 mb-4">{{ .Data.Term }}</h1>
+        <h1 class="font-fredoka text-3xl md:text-4xl text-stone-900 dark:text-stone-100 mb-4">{{ .Data.Term }}</h1>
         {{ $t := .Site.GetPage .Type }}
-        <p class="font-fjord flex items-center justify-center space-x-2 text-gray-600 dark:text-gray-400">
+        <p class="font-fjord flex items-center justify-center space-x-2 text-stone-600 dark:text-stone-400">
             <span class="bg-palemoss-100 dark:bg-palemoss-900 text-palemoss-800 dark:text-palemoss-200 px-3 py-1 rounded-full text-sm font-medium">
                 {{ len $list }} {{ if gt (len $list) 1 }}{{ "post" | pluralize }}{{ else }}post{{ end }}
             </span>
@@ -17,7 +17,7 @@
     </header>
     <div class="space-y-8">
         {{ range $index, $value := $list }}
-        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+        <div class="bg-white dark:bg-stone-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
             {{ .Render "li"}}
         </div>
         {{ end }}

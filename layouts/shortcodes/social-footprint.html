@@ -1,11 +1,11 @@
 <table class="w-auto">
     <tbody>
     {{ range sort .Site.Data.footprint.footprint "title" "desc" }}
-    <tr class="border-b border-gray-200 dark:border-gray-700">
+    <tr class="border-b border-stone-200 dark:border-stone-700">
         <td class="">
             <span class="flex items-center space-x-2">
                 <img alt="{{substr .name 0 2}}" src="{{ .image }}" width="20" height="20" class="rounded">
-                <span class="text-gray-900 dark:text-gray-100">{{ .name }}</span>
+                <span class="text-stone-900 dark:text-stone-100">{{ .name }}</span>
             </span>
         </td>
         <td class="align-middle">

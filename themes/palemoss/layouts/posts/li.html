@@ -1,5 +1,5 @@
 <div class="p-6">
-    <div class="font-fjord flex flex-wrap items-center gap-2 text-sm text-gray-500 dark:text-gray-400 mb-3">
+    <div class="font-fjord flex flex-wrap items-center gap-2 text-sm text-stone-500 dark:text-stone-400 mb-3">
         <time class="font-medium">{{ .Date.Format "2 Jan, 2006" }}</time>
         <span>&sdot;</span>
         <span>in</span>
@@ -11,10 +11,10 @@
         {{ end }}
         {{ end }}
     </div>
-    <h3 class="font-fredoka text-xl md:text-2xl text-gray-900 dark:text-gray-100 mb-3 leading-tight">
+    <h3 class="font-fredoka text-xl md:text-2xl text-stone-900 dark:text-stone-100 mb-3 leading-tight">
         <a href="{{ .RelPermalink }}" class="hover:text-palemoss-600 dark:hover:text-palemoss-400 transition-colors duration-200">{{ .Title }}</a>
     </h3>
-    <p class="font-fjord text-gray-600 dark:text-gray-400 leading-relaxed">{{ .Summary | plainify }}</p>
+    <p class="font-fjord text-stone-600 dark:text-stone-400 leading-relaxed">{{ .Summary | plainify }}</p>
     <a href="{{ .RelPermalink }}" class="font-fjord inline-flex items-center text-palemoss-600 dark:text-palemoss-400 hover:text-palemoss-800 dark:hover:text-palemoss-300 font-medium transition-colors duration-200 mt-4">
         Read post
         <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
