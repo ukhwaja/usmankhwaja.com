@@ -12,6 +12,17 @@
 @theme {
   --font-fjord: 'Fjord One';
   --font-fredoka: 'Fredoka One';
+  --color-palemoss-50: oklch(98.6% 0.031 109.87);
+  --color-palemoss-100: oklch(97.423% 0.04575 111.44);
+  --color-palemoss-200: oklch(95.246% 0.0845 113.43);
+  --color-palemoss-300: oklch(91.869% 0.13224 115.78);
+  --color-palemoss-400: oklch(86.992% 0.15299 117.96);
+  --color-palemoss-500: oklch(80.415% 0.12674 119.96);
+  --color-palemoss-600: oklch(69.138% 0.07249 120.8);
+  --color-palemoss-700: oklch(56.453% 0.06137 120.7);
+  --color-palemoss-800: oklch(47.469% 0.06024 120.04);
+  --color-palemoss-900: oklch(41.584% 0.06912 120.17);
+  --color-palemoss-950: oklch(27.4% 0.072 121.22);
 }
 
 @layer plugin {

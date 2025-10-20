@@ -7,10 +7,10 @@
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {{ range .Data.Terms.ByCount }}
         <a href="{{ .Page.RelPermalink }}"
-            class="group bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 p-6 border border-gray-200 dark:border-gray-700 hover:border-blue-300 dark:hover:border-blue-600">
-            <h3 class="font-fjord text-lg font-semibold text-gray-900 dark:text-gray-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-200 flex items-center justify-between">
+            class="group bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 p-6 border border-gray-200 dark:border-gray-700 hover:border-palemoss-300 dark:hover:border-palemoss-600">
+            <h3 class="font-fjord text-lg font-semibold text-gray-900 dark:text-gray-100 group-hover:text-palemoss-600 dark:group-hover:text-palemoss-400 transition-colors duration-200 flex items-center justify-between">
                 {{ .Page.Title }}
-                <span class="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-sm font-medium px-2.5 py-0.5 rounded-full">{{ .Count }}</span>
+                <span class="bg-palemoss-100 dark:bg-palemoss-900 text-palemoss-800 dark:text-palemoss-200 text-sm font-medium px-2.5 py-0.5 rounded-full">{{ .Count }}</span>
             </h3>
             <p class="font-fjord text-gray-500 dark:text-gray-400 text-sm mt-2">{{ .Count }} {{ if gt .Count 1 }}posts{{ else }}post{{ end }}</p>
         </a>
