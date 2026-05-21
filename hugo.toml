@@ -1,5 +1,5 @@
 baseURL = "https://usmankhwaja.netlify.app/"
-languageCode = "en"
+locale = "en"
 DefaultContentLanguage = "en"
 title = "Usman Khwaja"
 enableEmoji = true
