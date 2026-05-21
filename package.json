@@ -4,7 +4,7 @@
   "description": "personal website made with hugo",
   "main": "index.html",
   "scripts": {
-    "build": "rm -rf public && hugo && npmx workbox generateSW workbox.config.js",
+    "build": "rm -rf public && hugo && npx workbox generateSW workbox.config.js",
     "start": "hugo server --buildDrafts",
     "build-sw": "npx workbox generateSW workbox.config.js"
   },
