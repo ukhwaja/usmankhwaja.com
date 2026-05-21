@@ -3,7 +3,7 @@ title: React Native WSL2 setup without Android Studio in Windows
 date: 2024-05-26T00:45:50-04:00
 categories: ["Code"]
 tags: ["React Native", "WSL2", "Android Studio"]
-keywords: ["WSL", "Setup", Development]
+keywords: ["WSL", "Setup", "Development"]
 image: ["https://raw.githubusercontent.com/ampproject/docs/master/assets/img/logo-og-image.jpg"]
 ---
 

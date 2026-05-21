@@ -1,9 +1,9 @@
 ---
 title: Mise replaced my entire dev setup
 date: 2026-05-20T22:36:22-07:00
-categories: [""]
-tags: [""]
-keywords: [""]
+categories: ["Code"]
+tags: ["Mise", "Dev Tools", "Productivity"]
+keywords: ["Mise", "Dev Environment", "Package Manager"]
 image: ["https://raw.githubusercontent.com/ampproject/docs/master/assets/img/logo-og-image.jpg"]
 ---
 
@@ -13,7 +13,7 @@ Now everything I need is one unified command with `mise`:
 
 ![mise-list](./mise-list.webp "673x235")
 
-Mise unifies this mess. For example in my [previous post]({{< relref "posts/react-native-wsl2-setup-without-android-studio-in-windows.md" >}}) I used wget to get the Android Studio command line tools. Then use it to get the Android SDK. Manually add all the environment variables. Not to forget that Java is assumed to be installed in the env already. With `mise`.
+Mise unifies this mess. For example in my [previous post]({{< relref "posts/react-native-wsl2-setup-without-android-studio-in-windows.md" >}}) I used wget to get the Android Studio command line tools. Then use it to get the Android SDK. Manually add all the environment variables. Not to forget that Java is assumed to be installed in the env already. With `mise`:
 
 ```bash
 mise use -g java@17
