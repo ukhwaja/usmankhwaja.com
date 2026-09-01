@@ -5,6 +5,7 @@ categories: ["Code"]
 tags: ["Workers", "JavaScript"]
 keywords: ["Google AMP", "AMP", "Service Workers", "Workers", "Cloudflare"]
 images: ["https://pbs.twimg.com/profile_banners/32499999/1576870022/1500x500"]
+slug: "cloudflare-fast-google-fonts-service-worker-with-google-amp-custom-style-tag"
 ---
 
 The service worker template on Cloudflare's [Workers](https://workers.cloudflare.com/) for loading google fonts fater, injects the HTML with font CSS before the page loads. The CSS is embedded in a `<style>` tag. AMP however does not allow 'style' tags. It says: "_Only amp-boilerplate and amp-custom 'style' tags are allowed, and only in the document head._". Moreover, only one _amp-custom_ 'style' tag is permissable.

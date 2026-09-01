@@ -5,6 +5,7 @@ categories: ["Code"]
 tags: ["Hugo"]
 keywords: ["Hugo", "HTML", "VS Code"]
 images: ["https://code.visualstudio.com/opengraphimg/opengraph-home.png"]
+slug: "using-hugo-htmlunescape-function-to-solve-selector-expected-errors"
 ---
 I have been getting this error in VS Code for using `<style>` and then not following it up with a valid CSS.
 

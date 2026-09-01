@@ -5,6 +5,7 @@ categories: ["Code"]
 tags: ["Hugo", "PostCSS"]
 keywords: ["Tachyons", "PostCSS", "Hugo"]
 images: ["https://raw.githubusercontent.com/gohugoio/hugoDocs/master/static/img/hugo.png"]
+slug: "hugo--tachyons-src-without-gulp-or-webpack"
 ---
 [Tachyons](https://www.tachyons.io) is a pretty epic css toolkit. The first and common way to use it is to link the minified css into your html.
 
